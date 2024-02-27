@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Header from "../../components/Header";
+import Footer from "../../components/Footer";
 import "./globals.css";
 import ScrollContext from "../../components/ScrollContext";
 
@@ -23,7 +24,9 @@ export default function RootLayout({
           <Header />
         </ScrollContext>
 
-        <main className="font-inter">{children}</main>
+        <main className="font-inter pt-28">{children}</main>
+
+        <Footer />
       </body>
     </html>
   );

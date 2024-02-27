@@ -7,16 +7,16 @@ const Header = () => {
 
   const curSection = context?.curSection; // passa o valor do contexto pra uma variavel
 
-  const highlight = "font-bold"; // define como vai funcionar o highlight
+  const highlight = "font-bold text-white"; // define como vai funcionar o highlight
 
   return (
-    <header className="fixed right-0 left-0 bg-gray-dark text-gray-base font-inter shadow-gray-600 shadow-md">
-      <div className="flex items-center justify-around gap-20 xl:gap-40 my-0 mx-auto lg:h-28">
+    <header className="fixed right-0 left-0 bg-gray-dark text-gray-base font-inter shadow-gray-800 shadow-md">
+      <div className="flex items-center justify-around h-28 gap-20 xl:gap-40 my-0 mx-auto">
         <div className="flex items-center justify-center lg:justify-start gap-3 w-fit my-4 p-4 md:p-0">
           <picture className="flex justify-center w-1/6">
             <img src="images/logo_place_holder.png" />
           </picture>
-          <h1 className="uppercase text-xl md:text-2xl filter drop-shadow-2xl">
+          <h1 className="uppercase text-center text-xl md:text-2xl filter drop-shadow-2xl">
             Campeonato Brasileiro
           </h1>
         </div>
