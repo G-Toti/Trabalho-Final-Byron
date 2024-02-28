@@ -4,6 +4,7 @@ import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import "./globals.css";
 import ScrollContext from "../../components/ScrollContext";
+import Sidebar from "../../components/Sidebar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,12 +20,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${inter.className}`}>
         <ScrollContext>
           <Header />
         </ScrollContext>
 
-        <main className="font-inter pt-28">{children}</main>
+        <main className="font-inter lg:pt-28">{children}</main>
 
         <Footer />
       </body>
