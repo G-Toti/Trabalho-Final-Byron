@@ -11,9 +11,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 export default function Home() {
-  const [emblaRef, emblaAPI] = useEmblaCarousel({ loop: true, duration: 60 }, [
-    Autoplay(),
-  ]);
+  const [emblaRef, emblaAPI] = useEmblaCarousel({ loop: true }, [Autoplay()]);
   const [selectedGame, setSelectedGame] = useState<number>(0);
 
   const onSelect = useCallback((emblaAPI: EmblaCarouselType) => {
@@ -115,81 +113,83 @@ export default function Home() {
           <hr className="border-md border-black " />
           <div className="flex flex-col lg:flex-row lg:w-2/3">
             <table className="w-full">
-              <tr className="border-b border-black">
-                <td>
-                  <p>Classificação</p>
-                </td>
-                <td>
-                  <p className="text-center">P</p>
-                </td>
-                <td>
-                  <p className="text-center">J</p>
-                </td>
-                <td>
-                  <p className="text-center">V</p>
-                </td>
-                <td>
-                  <p className="text-center">E</p>
-                </td>
-                <td>
-                  <p className="text-center">D</p>
-                </td>
-                <td>
-                  <p className="text-center">GP</p>
-                </td>
-                <td>
-                  <p className="text-center">SG</p>
-                </td>
-                <td>
-                  <p className="text-center">%</p>
-                </td>
-                <td className="w-0 lg:w-1/4" />
-              </tr>
-              <tr className="border-b border-black">
-                <td>
-                  <p>1 Corinthians</p>
-                </td>
-                <td>
-                  <p className="flex items-center justify-center bg-gray-base p-2">
-                    0
-                  </p>
-                </td>
-                <td>
-                  <p className="flex items-center justify-center bg-white p-2">
-                    0
-                  </p>
-                </td>
-                <td>
-                  <p className="flex items-center justify-center bg-gray-base p-2">
-                    0
-                  </p>
-                </td>
-                <td>
-                  <p className="flex items-center justify-center bg-white p-2">
-                    0
-                  </p>
-                </td>
-                <td>
-                  <p className="flex items-center justify-center bg-gray-base p-2">
-                    0
-                  </p>
-                </td>
-                <td>
-                  <p className="flex items-center justify-center bg-white p-2">
-                    0
-                  </p>
-                </td>
-                <td>
-                  <p className="flex items-center justify-center bg-gray-base p-2">
-                    0
-                  </p>
-                </td>
-                <td>
-                  <p className="flex items-center justify-center bg-white p-2">
-                    0
-                  </p>
-                </td>
-              </tr>
+              <tbody>
+                <tr className="border-b border-black">
+                  <td>
+                    <p>Classificação</p>
+                  </td>
+                  <td>
+                    <p className="text-center">P</p>
+                  </td>
+                  <td>
+                    <p className="text-center">J</p>
+                  </td>
+                  <td>
+                    <p className="text-center">V</p>
+                  </td>
+                  <td>
+                    <p className="text-center">E</p>
+                  </td>
+                  <td>
+                    <p className="text-center">D</p>
+                  </td>
+                  <td>
+                    <p className="text-center">GP</p>
+                  </td>
+                  <td>
+                    <p className="text-center">SG</p>
+                  </td>
+                  <td>
+                    <p className="text-center">%</p>
+                  </td>
+                  <td className="w-0 lg:w-1/4" />
+                </tr>
+                <tr className="border-b border-black">
+                  <td>
+                    <p>1 Corinthians</p>
+                  </td>
+                  <td>
+                    <p className="flex items-center justify-center bg-gray-base p-2">
+                      0
+                    </p>
+                  </td>
+                  <td>
+                    <p className="flex items-center justify-center bg-white p-2">
+                      0
+                    </p>
+                  </td>
+                  <td>
+                    <p className="flex items-center justify-center bg-gray-base p-2">
+                      0
+                    </p>
+                  </td>
+                  <td>
+                    <p className="flex items-center justify-center bg-white p-2">
+                      0
+                    </p>
+                  </td>
+                  <td>
+                    <p className="flex items-center justify-center bg-gray-base p-2">
+                      0
+                    </p>
+                  </td>
+                  <td>
+                    <p className="flex items-center justify-center bg-white p-2">
+                      0
+                    </p>
+                  </td>
+                  <td>
+                    <p className="flex items-center justify-center bg-gray-base p-2">
+                      0
+                    </p>
+                  </td>
+                  <td>
+                    <p className="flex items-center justify-center bg-white p-2">
+                      0
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
             </table>
 
             <div></div>
