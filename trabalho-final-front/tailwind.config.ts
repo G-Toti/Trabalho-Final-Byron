@@ -27,7 +27,7 @@ const config: Config = {
           light: "#E0D8D8",
           base: "#D9D9D9",
           dark: "#4E4F4C", 
-          darkest: "#555555"
+          darkest: "#333333"
         },
         yellow: 
         {
@@ -36,7 +36,8 @@ const config: Config = {
         }
       },
       fontFamily: {
-        'inter': ["Inter", "sans-serif"]
+        'inter': ["Inter", "sans-serif"],
+        'fira': ["Fira Code", "arial"]
       }
     },
   },

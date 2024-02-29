@@ -22,7 +22,7 @@ export const useScrollContext = () => {
 };
 
 const ScrollContext = ({ children }: IProps) => {
-  const [curSection, setCurSection] = useState("");
+  const [curSection, setCurSection] = useState("rodadas");
 
   useEffect(() => {
     const sections = {
@@ -39,7 +39,7 @@ const ScrollContext = ({ children }: IProps) => {
 
         if (!sectionElement) return;
 
-        const { top, bottom } = sectionElement.getBoundingClientRect(); // Pegando o tamanho da section
+        const { top, bottom } = sectionElement.getBoundingClientRect(); // Pegando o posição da section
 
         if (top < window.innerHeight / 2 && bottom > window.innerHeight / 2) {
           // Está visivel
