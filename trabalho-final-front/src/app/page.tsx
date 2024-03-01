@@ -138,12 +138,12 @@ export default function Home() {
           </button>
         </div>
       </section>
-      <section className="bg-gray-lightest py-8">
-        <div className="px-5 lg:px-16">
-          <h2>TABELA</h2>
+      <section id="tabela" className="bg-gray-lightest py-8">
+        <div className="flex flex-col gap-5 px-5 lg:px-16">
           <div className="flex flex-col lg:flex-row gap-10">
-            <hr className="border-md border-black " />
-            <div className="lg:w-2/3">
+            <div className="space-y-5 lg:w-2/3">
+              <h2 className="text-4xl font-bold">TABELA</h2>
+              <hr className="border-sm border-black" />
               <table className="w-full">
                 <tbody>
                   <tr className="border-b border-black">
@@ -178,7 +178,7 @@ export default function Home() {
                   </tr>
                   <tr className="border-b border-black">
                     <td>
-                      <p>1 Corinthians</p>
+                      <p className="font-bold text-lg">1 Corinthians</p>
                     </td>
                     <td>
                       <p className="flex items-center justify-center bg-gray-base p-2">
@@ -226,25 +226,24 @@ export default function Home() {
             </div>
             <div className="lg:border-l border-black lg:w-1/3 lg:pl-2">
               <h2 className="text-4xl font-bold"> JOGOS </h2>
-
               <div className="flex justify-between py-2">
                 <button>
                   <FontAwesomeIcon
-                    className="text-yellow-base"
+                    className="text-yellow-base text-4xl"
                     icon={faChevronLeft}
                   />
                 </button>
                 <h3 className="text-2xl">N RODADA</h3>
                 <button>
                   <FontAwesomeIcon
-                    className="text-yellow-base"
+                    className="text-yellow-base text-4xl"
                     icon={faChevronRight}
                   />
                 </button>
               </div>
 
               <div className="flex flex-col gap-4 border-t border-black py-1">
-                <div className="flex justify-around text-sm">
+                <div className="flex justify-around text-xl lg:text-sm">
                   <p>Neo Quimica Arena</p>
 
                   <p>28/02 - 19:30</p>
