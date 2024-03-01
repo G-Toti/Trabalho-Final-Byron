@@ -10,12 +10,14 @@ import {
   faChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
 
+useEmblaCarousel.globalOptions = { loop: true };
+
 export default function Home() {
   const [emblaRef, emblaAPI] = useEmblaCarousel(
     { loop: true, watchDrag: true },
     [Autoplay()]
   );
-  const [canDrag, setDrag] = useState(false);
+  const [canDrag, setDrag] = useState(true);
   const [windowSize, setWindowSize] = useState(0);
   const [selectedGame, setSelectedGame] = useState<number>(0);
 
@@ -50,18 +52,20 @@ export default function Home() {
   }, []);
 
   useEffect(() => {
+    if (!emblaAPI) return;
+
     let newOptions = {};
 
     if (!canDrag && windowSize < 1024) {
-      newOptions = { loop: true, watchDrag: true };
+      newOptions = { watchDrag: true };
       setDrag(true);
     } else if (canDrag && windowSize >= 1024) {
-      newOptions = { loop: true, watchDrag: false };
+      newOptions = { watchDrag: false };
       setDrag(false);
     }
 
-    emblaAPI?.reInit(newOptions);
-  }, [windowSize]);
+    emblaAPI.reInit(newOptions);
+  }, [windowSize, emblaAPI]);
 
   return (
     <>
