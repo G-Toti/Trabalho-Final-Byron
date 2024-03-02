@@ -9,7 +9,7 @@ import {
   faChevronLeft,
   faChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
-import { ICampeonato, IRodada, ITime } from "../../interface/campeonatos";
+import { IRodada, ITime } from "../../interface/campeonatos";
 import { getData } from "../../modules/campeonatos_requests";
 
 useEmblaCarousel.globalOptions = { loop: true };
@@ -24,7 +24,6 @@ export default function Home() {
   const [selectedGame, setSelectedGame] = useState<number>(0);
 
   const [curRodada, setCurRodada] = useState(38);
-  const [campeonato, setCampeonato] = useState<ICampeonato>();
   const [rodadas, setRodadas] = useState<IRodada[]>();
 
   const [times, setTimes] = useState<ITime[]>();
@@ -32,12 +31,14 @@ export default function Home() {
   useEffect(() => {
     const getCampeonato = async () => {
       const res = await getData("campeonatos");
-      setCampeonato(res.data[0]);
       setRodadas(res.data[0].rodadas);
     };
 
     const getTimes = async () => {
-      const res = await getData("times", "_sort=estatisticas.pontos,nome");
+      const res = await getData(
+        "times",
+        "_sort=-estatisticas.pontos,-estatisticas.saldoDeGols"
+      );
       console.log(res.data);
       setTimes(res.data);
     };
