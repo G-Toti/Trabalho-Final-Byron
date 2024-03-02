@@ -199,25 +199,31 @@ export default function Home() {
                       <p className="text-center">D</p>
                     </td>
                     <td>
-                      <p className="text-center">GP</p>
+                      <p className="hidden lg:block text-center">GP</p>
                     </td>
                     <td>
-                      <p className="text-center">GC</p>
+                      <p className="hidden lg:block text-center">GC</p>
                     </td>
                     <td>
-                      <p className="text-center">SG</p>
+                      <p className="hidden lg:block text-center">SG</p>
                     </td>
                     <td>
-                      <p className="text-center">%</p>
+                      <p className="hidden lg:block text-center">%</p>
                     </td>
-                    <td className="w-0 lg:w-1/5" />
+                    <td className="w-1/6 lg:w-1/5" />
                   </tr>
                   {times?.map((item, key) => (
                     <tr key={key} className="border-b border-black">
-                      <td>
-                        <p className="font-bold text-lg">
-                          {key + 1} {item.nome}
-                        </p>
+                      <td className="flex items-center gap-3  font-bold text-lg">
+                        <span>{key + 1}</span>
+                        <p className="hidden sm:block">{item.nome}</p>
+                        <picture className="block md:hidden w-1/5">
+                          <img
+                            src={item.brasao}
+                            alt={`Brasão do ${item.nome}`}
+                          />
+                        </picture>
+                        <p className="block sm:hidden">{item.sigla}</p>
                       </td>
                       <td>
                         <p className="flex items-center justify-center bg-gray-base p-2">
@@ -245,22 +251,22 @@ export default function Home() {
                         </p>
                       </td>
                       <td>
-                        <p className="flex items-center justify-center bg-white p-2">
+                        <p className="hidden lg:flex items-center justify-center bg-white p-2">
                           {item.estatisticas.golsMarcados}
                         </p>
                       </td>
                       <td>
-                        <p className="flex items-center justify-center bg-gray-base p-2">
+                        <p className="hidden lg:flex items-center justify-center bg-gray-base p-2">
                           {item.estatisticas.golsSofridos}
                         </p>
                       </td>
                       <td>
-                        <p className="flex items-center justify-center bg-white p-2">
+                        <p className="hidden lg:flex items-center justify-center bg-white p-2">
                           {item.estatisticas.saldoDeGols}
                         </p>
                       </td>
                       <td>
-                        <p className="flex items-center justify-center bg-gray-base p-2">
+                        <p className="hidden lg:flex items-center justify-center bg-gray-base p-2">
                           {item.estatisticas.aproveitamento}
                         </p>
                       </td>
@@ -293,34 +299,43 @@ export default function Home() {
                 </button>
               </div>
 
-              <div className="flex flex-col gap-4 border-t border-black py-1">
-                <div className="flex justify-around text-xl lg:text-sm">
-                  <p>Neo Quimica Arena</p>
+              {rodadas
+                ? rodadas[curRodada - 1].jogos.map((item, key) => (
+                    <div
+                      key={key}
+                      className="flex flex-col gap-4 border-t border-black py-1"
+                    >
+                      <div className="flex justify-around text-xl lg:text-sm text-center">
+                        <p>{item.local}</p>
 
-                  <p>28/02 - 19:30</p>
-                </div>
-                <div className="flex justify-around items-center text-lg font-semibold">
-                  <p>COR</p>
-                  <picture className="w-1/5">
-                    <img
-                      src="https://s.sde.globo.com/media/organizations/2019/09/30/Corinthians.svg"
-                      alt=""
-                      className="w-full"
-                    />
-                  </picture>
-                  <span className="text-2xl">0</span>
-                  <span className="text-gray-400">X</span>
-                  <span className="text-2xl">0</span>
-                  <picture className="w-1/5">
-                    <img
-                      src="https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
-                      alt=""
-                      className="w-full"
-                    />
-                  </picture>
-                  <p>PAL</p>
-                </div>
-              </div>
+                        <p>
+                          {item.data} - {item.horario}
+                        </p>
+                      </div>
+                      <div className="flex justify-around items-center text-lg font-semibold">
+                        <p>{item.times[0].sigla}</p>
+                        <picture className="w-1/5">
+                          <img
+                            src={item.times[0].brasao}
+                            alt=""
+                            className="w-full"
+                          />
+                        </picture>
+                        <span className="text-2xl">{item.resultado[0]}</span>
+                        <span className="text-gray-400">X</span>
+                        <span className="text-2xl">{item.resultado[2]}</span>
+                        <picture className="w-1/5">
+                          <img
+                            src={item.times[1].brasao}
+                            alt=""
+                            className="w-full"
+                          />
+                        </picture>
+                        <p>{item.times[1].sigla}</p>
+                      </div>
+                    </div>
+                  ))
+                : "Carregando..."}
             </div>
           </div>
         </div>
