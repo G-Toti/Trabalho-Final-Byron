@@ -3,6 +3,7 @@
     {
       "id": 1,
       "nome": "Brasileirão Série A",
+      "rodadaAtual": 38,
       "rodadas": [
         {
           "id": 1,
@@ -15,10 +16,12 @@
               "resultado": "2x1",
               "times": [
                 {
+                  "nome": "Palmeiras",
                   "sigla": "PAL",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
                 },
                 {
+                  "nome": "Cuiabá",
                   "sigla": "CUI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/12/26/Cuiaba_EC.svg"
                 }
@@ -32,10 +35,12 @@
               "resultado": "0x3",
               "times": [
                 {
+                  "nome": "América-MG",
                   "sigla": "AME",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/28/America-MG-VERDE-fev2019-01.svg"
                 },
                 {
+                  "nome": "Fluminense",
                   "sigla": "FLU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
                 }
@@ -49,10 +54,12 @@
               "resultado": "2x1",
               "times": [
                 {
+                  "nome": "Botafogo",
                   "sigla": "BOT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
                 },
                 {
+                  "nome": "São Paulo",
                   "sigla": "SAO",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
                 }
@@ -66,10 +73,12 @@
               "resultado": "2x1",
               "times": [
                 {
+                  "nome": "Bragantino",
                   "sigla": "RBB",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
                 },
                 {
+                  "nome": "Bahia",
                   "sigla": "BAH",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
                 }
@@ -83,10 +92,12 @@
               "resultado": "2x0",
               "times": [
                 {
+                  "nome": "Athletico-PR",
                   "sigla": "CAP",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/09/Athletico-PR.svg"
                 },
                 {
+                  "nome": "Goiás",
                   "sigla": "GOI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/03/01/GOIAS-2021.svg"
                 }
@@ -100,10 +111,12 @@
               "resultado": "1x1",
               "times": [
                 {
+                  "nome": "Fortaleza",
                   "sigla": "FOR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/19/Fortaleza_2021_1.svg"
                 },
                 {
+                  "nome": "Internacional",
                   "sigla": "INT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
                 }
@@ -117,10 +130,12 @@
               "resultado": "1x2",
               "times": [
                 {
+                  "nome": "Atlético-MG",
                   "sigla": "CAM",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
                 },
                 {
+                  "nome": "Vasco",
                   "sigla": "VAS",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
                 }
@@ -134,10 +149,12 @@
               "resultado": "3x0",
               "times": [
                 {
+                  "nome": "Flamengo",
                   "sigla": "FLA",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
                 },
                 {
+                  "nome": "Coritiba",
                   "sigla": "CFC",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
                 }
@@ -151,10 +168,12 @@
               "resultado": "2x1",
               "times": [
                 {
+                  "nome": "Corinthians",
                   "sigla": "COR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/30/Corinthians.svg"
                 },
                 {
+                  "nome": "Cruzeiro",
                   "sigla": "CRU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
                 }
@@ -168,10 +187,12 @@
               "resultado": "1x0",
               "times": [
                 {
+                  "nome": "Grêmio",
                   "sigla": "GRE",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
                 },
                 {
+                  "nome": "Santos",
                   "sigla": "SAN",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
                 }
@@ -190,10 +211,12 @@
               "resultado": "2x0",
               "times": [
                 {
+                  "nome": "Fluminense",
                   "sigla": "FLU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
                 },
                 {
+                  "nome": "Athletico-PR",
                   "sigla": "CAP",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/09/Athletico-PR.svg"
                 }
@@ -207,10 +230,12 @@
               "resultado": "3x0",
               "times": [
                 {
+                  "nome": "São Paulo",
                   "sigla": "SAO",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
                 },
                 {
+                  "nome": "América-MG",
                   "sigla": "AME",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/28/America-MG-VERDE-fev2019-01.svg"
                 }
@@ -224,10 +249,12 @@
               "resultado": "1x1",
               "times": [
                 {
+                  "nome": "Cuiabá",
                   "sigla": "CUI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/12/26/Cuiaba_EC.svg"
                 },
                 {
+                  "nome": "Bragantino",
                   "sigla": "RBB",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
                 }
@@ -241,10 +268,12 @@
               "resultado": "1x0",
               "times": [
                 {
+                  "nome": "Cruzeiro",
                   "sigla": "CRU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
                 },
                 {
+                  "nome": "Grêmio",
                   "sigla": "GRE",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
                 }
@@ -258,10 +287,12 @@
               "resultado": "2x1",
               "times": [
                 {
+                  "nome": "Internacional",
                   "sigla": "INT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
                 },
                 {
+                  "nome": "Flamengo",
                   "sigla": "FLA",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
                 }
@@ -275,10 +306,12 @@
               "resultado": "2x2",
               "times": [
                 {
+                  "nome": "Vasco",
                   "sigla": "VAS",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
                 },
                 {
+                  "nome": "Palmeiras",
                   "sigla": "PAL",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
                 }
@@ -292,10 +325,12 @@
               "resultado": "0x0",
               "times": [
                 {
+                  "nome": "Santos",
                   "sigla": "SAN",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
                 },
                 {
+                  "nome": "Atlético-MG",
                   "sigla": "CAM",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
                 }
@@ -309,10 +344,12 @@
               "resultado": "0x3",
               "times": [
                 {
+                  "nome": "Coritiba",
                   "sigla": "CFC",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
                 },
                 {
+                  "nome": "Fortaleza",
                   "sigla": "FOR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/19/Fortaleza_2021_1.svg"
                 }
@@ -326,10 +363,12 @@
               "resultado": "3x1",
               "times": [
                 {
+                  "nome": "Goiás",
                   "sigla": "GOI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/03/01/GOIAS-2021.svg"
                 },
                 {
+                  "nome": "Corinthians",
                   "sigla": "COR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/30/Corinthians.svg"
                 }
@@ -343,10 +382,12 @@
               "resultado": "1x0",
               "times": [
                 {
+                  "nome": "Bahia",
                   "sigla": "BAH",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
                 },
                 {
+                  "nome": "Botafogo",
                   "sigla": "BOT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
                 }
@@ -365,10 +406,12 @@
               "resultado": "1x1",
               "times": [
                 {
+                  "nome": "Coritiba",
                   "sigla": "CFC",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
                 },
                 {
+                  "nome": "São Paulo",
                   "sigla": "SAO",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
                 }
@@ -382,10 +425,12 @@
               "resultado": "4x2",
               "times": [
                 {
+                  "nome": "Fortaleza",
                   "sigla": "FOR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/19/Fortaleza_2021_1.svg"
                 },
                 {
+                  "nome": "Fluminense",
                   "sigla": "FLU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
                 }
@@ -399,10 +444,12 @@
               "resultado": "2x1",
               "times": [
                 {
+                  "nome": "Palmeiras",
                   "sigla": "PAL",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
                 },
                 {
+                  "nome": "Corinthians",
                   "sigla": "COR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/30/Corinthians.svg"
                 }
@@ -416,10 +463,12 @@
               "resultado": "3x2",
               "times": [
                 {
+                  "nome": "Santos",
                   "sigla": "SAN",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
                 },
                 {
+                  "nome": "América-MG",
                   "sigla": "AME",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/28/America-MG-VERDE-fev2019-01.svg"
                 }
@@ -433,10 +482,12 @@
               "resultado": "0x3",
               "times": [
                 {
+                  "nome": "Bragantino",
                   "sigla": "RBB",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
                 },
                 {
+                  "nome": "Cruzeiro",
                   "sigla": "CRU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
                 }
@@ -450,10 +501,12 @@
               "resultado": "2x1",
               "times": [
                 {
+                  "nome": "Atlético-MG",
                   "sigla": "CAM",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
                 },
                 {
+                  "nome": "Athletico-PR",
                   "sigla": "CAP",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/09/Athletico-PR.svg"
                 }
@@ -467,10 +520,12 @@
               "resultado": "2x3",
               "times": [
                 {
+                  "nome": "Flamengo",
                   "sigla": "FLA",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
                 },
                 {
+                  "nome": "Botafogo",
                   "sigla": "BOT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
                 }
@@ -484,10 +539,12 @@
               "resultado": "1x0",
               "times": [
                 {
+                  "nome": "Internacional",
                   "sigla": "INT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
                 },
                 {
+                  "nome": "Goiás",
                   "sigla": "GOI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/03/01/GOIAS-2021.svg"
                 }
@@ -501,10 +558,12 @@
               "resultado": "1x2",
               "times": [
                 {
+                  "nome": "Cuiabá",
                   "sigla": "CUI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/12/26/Cuiaba_EC.svg"
                 },
                 {
+                  "nome": "Grêmio",
                   "sigla": "GRE",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
                 }
@@ -518,10 +577,12 @@
               "resultado": "0x1",
               "times": [
                 {
+                  "nome": "Vasco",
                   "sigla": "VAS",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
                 },
                 {
+                  "nome": "Bahia",
                   "sigla": "BAH",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
                 }
@@ -540,10 +601,12 @@
               "resultado": "2x1",
               "times": [
                 {
+                  "nome": "Cruzeiro",
                   "sigla": "CRU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
                 },
                 {
+                  "nome": "Santos",
                   "sigla": "SAN",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
                 }
@@ -557,10 +620,12 @@
               "resultado": "1x1",
               "times": [
                 {
+                  "nome": "Fluminense",
                   "sigla": "FLU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
                 },
                 {
+                  "nome": "Vasco",
                   "sigla": "VAS",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
                 }
@@ -574,10 +639,12 @@
               "resultado": "1x2",
               "times": [
                 {
+                  "nome": "América-MG",
                   "sigla": "AME",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/28/America-MG-VERDE-fev2019-01.svg"
                 },
                 {
+                  "nome": "Cuiabá",
                   "sigla": "CUI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/12/26/Cuiaba_EC.svg"
                 }
@@ -591,10 +658,12 @@
               "resultado": "2x0",
               "times": [
                 {
+                  "nome": "São Paulo",
                   "sigla": "SAO",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
                 },
                 {
+                  "nome": "Internacional",
                   "sigla": "INT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
                 }
@@ -608,10 +677,12 @@
               "resultado": "2x1",
               "times": [
                 {
+                  "nome": "Athletico-PR",
                   "sigla": "CAP",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/09/Athletico-PR.svg"
                 },
                 {
+                  "nome": "Flamengo",
                   "sigla": "FLA",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
                 }
@@ -625,10 +696,12 @@
               "resultado": "3x1",
               "times": [
                 {
+                  "nome": "Bahia",
                   "sigla": "BAH",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
                 },
                 {
+                  "nome": "Coritiba",
                   "sigla": "CFC",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
                 }
@@ -642,10 +715,12 @@
               "resultado": "2x0",
               "times": [
                 {
+                  "nome": "Botafogo",
                   "sigla": "BOT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
                 },
                 {
+                  "nome": "Atlético-MG",
                   "sigla": "CAM",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
                 }
@@ -659,10 +734,12 @@
               "resultado": "0x5",
               "times": [
                 {
+                  "nome": "Goiás",
                   "sigla": "GOI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/03/01/GOIAS-2021.svg"
                 },
                 {
+                  "nome": "Palmeiras",
                   "sigla": "PAL",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
                 }
@@ -676,10 +753,12 @@
               "resultado": "3x3",
               "times": [
                 {
+                  "nome": "Grêmio",
                   "sigla": "GRE",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
                 },
                 {
+                  "nome": "Bragantino",
                   "sigla": "RBB",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
                 }
@@ -693,10 +772,12 @@
               "resultado": "1x1",
               "times": [
                 {
+                  "nome": "Corinthians",
                   "sigla": "COR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/30/Corinthians.svg"
                 },
                 {
+                  "nome": "Fortaleza",
                   "sigla": "FOR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/19/Fortaleza_2021_1.svg"
                 }
@@ -715,10 +796,12 @@
               "resultado": "3x0",
               "times": [
                 {
+                  "nome": "Santos",
                   "sigla": "SAN",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
                 },
                 {
+                  "nome": "Bahia",
                   "sigla": "BAH",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
                 }
@@ -732,10 +815,12 @@
               "resultado": "2x2",
               "times": [
                 {
+                  "nome": "Bragantino",
                   "sigla": "RBB",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
                 },
                 {
+                  "nome": "América-MG",
                   "sigla": "AME",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/28/America-MG-VERDE-fev2019-01.svg"
                 }
@@ -749,10 +834,12 @@
               "resultado": "0x2",
               "times": [
                 {
+                  "nome": "Internacional",
                   "sigla": "INT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
                 },
                 {
+                  "nome": "Athletico-PR",
                   "sigla": "CAP",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/09/Athletico-PR.svg"
                 }
@@ -766,10 +853,12 @@
               "resultado": "2x0",
               "times": [
                 {
+                  "nome": "Flamengo",
                   "sigla": "FLA",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
                 },
                 {
+                  "nome": "Goiás",
                   "sigla": "GOI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/03/01/GOIAS-2021.svg"
                 }
@@ -783,10 +872,12 @@
               "resultado": "0x4",
               "times": [
                 {
+                  "nome": "Cuiabá",
                   "sigla": "CUI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/12/26/Cuiaba_EC.svg"
                 },
                 {
+                  "nome": "Atlético-MG",
                   "sigla": "CAM",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
                 }
@@ -800,10 +891,12 @@
               "resultado": "4x1",
               "times": [
                 {
+                  "nome": "Palmeiras",
                   "sigla": "PAL",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
                 },
                 {
+                  "nome": "Grêmio",
                   "sigla": "GRE",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
                 }
@@ -817,10 +910,12 @@
               "resultado": "0x2",
               "times": [
                 {
+                  "nome": "Cruzeiro",
                   "sigla": "CRU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
                 },
                 {
+                  "nome": "Fluminense",
                   "sigla": "FLU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
                 }
@@ -834,10 +929,12 @@
               "resultado": "1x1",
               "times": [
                 {
+                  "nome": "Coritiba",
                   "sigla": "CFC",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
                 },
                 {
+                  "nome": "Vasco",
                   "sigla": "VAS",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
                 }
@@ -851,10 +948,12 @@
               "resultado": "3x0",
               "times": [
                 {
+                  "nome": "Botafogo",
                   "sigla": "BOT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
                 },
                 {
+                  "nome": "Corinthians",
                   "sigla": "COR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/30/Corinthians.svg"
                 }
@@ -868,10 +967,12 @@
               "resultado": "0x0",
               "times": [
                 {
+                  "nome": "Fortaleza",
                   "sigla": "FOR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/19/Fortaleza_2021_1.svg"
                 },
                 {
+                  "nome": "São Paulo",
                   "sigla": "SAO",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
                 }
@@ -890,10 +991,12 @@
               "resultado": "2x3",
               "times": [
                 {
+                  "nome": "Bahia",
                   "sigla": "BAH",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
                 },
                 {
+                  "nome": "Flamengo",
                   "sigla": "FLA",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
                 }
@@ -907,10 +1010,12 @@
               "resultado": "2x0",
               "times": [
                 {
+                  "nome": "Fluminense",
                   "sigla": "FLU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
                 },
                 {
+                  "nome": "Cuiabá",
                   "sigla": "CUI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/12/26/Cuiaba_EC.svg"
                 }
@@ -924,10 +1029,12 @@
               "resultado": "1x1",
               "times": [
                 {
+                  "nome": "Palmeiras",
                   "sigla": "PAL",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
                 },
                 {
+                  "nome": "Bragantino",
                   "sigla": "RBB",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
                 }
@@ -941,10 +1048,12 @@
               "resultado": "2x0",
               "times": [
                 {
+                  "nome": "Atlético-MG",
                   "sigla": "CAM",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
                 },
                 {
+                  "nome": "Internacional",
                   "sigla": "INT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
                 }
@@ -958,10 +1067,12 @@
               "resultado": "0x1",
               "times": [
                 {
+                  "nome": "Vasco",
                   "sigla": "VAS",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
                 },
                 {
+                  "nome": "Santos",
                   "sigla": "SAN",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
                 }
@@ -975,10 +1086,12 @@
               "resultado": "1x1",
               "times": [
                 {
+                  "nome": "Corinthians",
                   "sigla": "COR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/30/Corinthians.svg"
                 },
                 {
+                  "nome": "São Paulo",
                   "sigla": "SAO",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
                 }
@@ -992,10 +1105,12 @@
               "resultado": "0x0",
               "times": [
                 {
+                  "nome": "Grêmio",
                   "sigla": "GRE",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
                 },
                 {
+                  "nome": "Fortaleza",
                   "sigla": "FOR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/19/Fortaleza_2021_1.svg"
                 }
@@ -1009,10 +1124,12 @@
               "resultado": "2x1",
               "times": [
                 {
+                  "nome": "Goiás",
                   "sigla": "GOI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/03/01/GOIAS-2021.svg"
                 },
                 {
+                  "nome": "Botafogo",
                   "sigla": "BOT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
                 }
@@ -1026,10 +1143,12 @@
               "resultado": "3x2",
               "times": [
                 {
+                  "nome": "Athletico-PR",
                   "sigla": "CAP",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/09/Athletico-PR.svg"
                 },
                 {
+                  "nome": "Coritiba",
                   "sigla": "CFC",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
                 }
@@ -1043,10 +1162,12 @@
               "resultado": "0x4",
               "times": [
                 {
+                  "nome": "América-MG",
                   "sigla": "AME",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/28/America-MG-VERDE-fev2019-01.svg"
                 },
                 {
+                  "nome": "Cruzeiro",
                   "sigla": "CRU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
                 }
@@ -1065,10 +1186,12 @@
               "resultado": "1x1",
               "times": [
                 {
+                  "nome": "Bahia",
                   "sigla": "BAH",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
                 },
                 {
+                  "nome": "Goiás",
                   "sigla": "GOI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/03/01/GOIAS-2021.svg"
                 }
@@ -1082,10 +1205,12 @@
               "resultado": "2x0",
               "times": [
                 {
+                  "nome": "Botafogo",
                   "sigla": "BOT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
                 },
                 {
+                  "nome": "Fluminense",
                   "sigla": "FLU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
                 }
@@ -1099,10 +1224,12 @@
               "resultado": "4x2",
               "times": [
                 {
+                  "nome": "São Paulo",
                   "sigla": "SAO",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
                 },
                 {
+                  "nome": "Vasco",
                   "sigla": "VAS",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
                 }
@@ -1116,10 +1243,12 @@
               "resultado": "2x0",
               "times": [
                 {
+                  "nome": "Bragantino",
                   "sigla": "RBB",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
                 },
                 {
+                  "nome": "Athletico-PR",
                   "sigla": "CAP",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/09/Athletico-PR.svg"
                 }
@@ -1133,10 +1262,12 @@
               "resultado": "1x2",
               "times": [
                 {
+                  "nome": "Coritiba",
                   "sigla": "CFC",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
                 },
                 {
+                  "nome": "Atlético-MG",
                   "sigla": "CAM",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
                 }
@@ -1150,10 +1281,12 @@
               "resultado": "2x1",
               "times": [
                 {
+                  "nome": "América-MG",
                   "sigla": "AME",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/28/America-MG-VERDE-fev2019-01.svg"
                 },
                 {
+                  "nome": "Fortaleza",
                   "sigla": "FOR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/19/Fortaleza_2021_1.svg"
                 }
@@ -1167,10 +1300,12 @@
               "resultado": "0x0",
               "times": [
                 {
+                  "nome": "Grêmio",
                   "sigla": "GRE",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
                 },
                 {
+                  "nome": "Fortaleza",
                   "sigla": "FOR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/19/Fortaleza_2021_1.svg"
                 }
@@ -1184,10 +1319,12 @@
               "resultado": "1x0",
               "times": [
                 {
+                  "nome": "Flamengo",
                   "sigla": "FLA",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
                 },
                 {
+                  "nome": "Corinthians",
                   "sigla": "COR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/30/Corinthians.svg"
                 }
@@ -1201,10 +1338,12 @@
               "resultado": "3x1",
               "times": [
                 {
+                  "nome": "Grêmio",
                   "sigla": "GRE",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
                 },
                 {
+                  "nome": "Internacional",
                   "sigla": "INT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
                 }
@@ -1218,10 +1357,12 @@
               "resultado": "0x1",
               "times": [
                 {
+                  "nome": "Cruzeiro",
                   "sigla": "CRU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
                 },
                 {
+                  "nome": "Cuiabá",
                   "sigla": "CUI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/12/26/Cuiaba_EC.svg"
                 }
@@ -1240,10 +1381,12 @@
               "resultado": "1x2",
               "times": [
                 {
+                  "nome": "Athletico-PR",
                   "sigla": "CAP",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/09/Athletico-PR.svg"
                 },
                 {
+                  "nome": "Grêmio",
                   "sigla": "GRE",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
                 }
@@ -1257,10 +1400,12 @@
               "resultado": "2x0",
               "times": [
                 {
+                  "nome": "Fortaleza",
                   "sigla": "FOR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/19/Fortaleza_2021_1.svg"
                 },
                 {
+                  "nome": "Vasco",
                   "sigla": "VAS",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
                 }
@@ -1274,10 +1419,12 @@
               "resultado": "1x1",
               "times": [
                 {
+                  "nome": "Flamengo",
                   "sigla": "FLA",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
                 },
                 {
+                  "nome": "Cruzeiro",
                   "sigla": "CRU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
                 }
@@ -1291,10 +1438,12 @@
               "resultado": "1x1",
               "times": [
                 {
+                  "nome": "Cuiabá",
                   "sigla": "CUI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/12/26/Cuiaba_EC.svg"
                 },
                 {
+                  "nome": "Coritiba",
                   "sigla": "CFC",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
                 }
@@ -1308,10 +1457,12 @@
               "resultado": "2x1",
               "times": [
                 {
+                  "nome": "São Paulo",
                   "sigla": "SAO",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
                 },
                 {
+                  "nome": "Goiás",
                   "sigla": "GOI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/03/01/GOIAS-2021.svg"
                 }
@@ -1325,10 +1476,12 @@
               "resultado": "2x0",
               "times": [
                 {
+                  "nome": "Corinthians",
                   "sigla": "COR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/30/Corinthians.svg"
                 },
                 {
+                  "nome": "Fluminense",
                   "sigla": "FLU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
                 }
@@ -1342,10 +1495,12 @@
               "resultado": "2x0",
               "times": [
                 {
+                  "nome": "Internacional",
                   "sigla": "INT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
                 },
                 {
+                  "nome": "Bahia",
                   "sigla": "BAH",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
                 }
@@ -1359,10 +1514,12 @@
               "resultado": "2x0",
               "times": [
                 {
+                  "nome": "Bragantino",
                   "sigla": "RBB",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
                 },
                 {
+                  "nome": "Santos",
                   "sigla": "SAN",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
                 }
@@ -1376,10 +1533,12 @@
               "resultado": "1x1",
               "times": [
                 {
+                  "nome": "Atlético-MG",
                   "sigla": "CAM",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
                 },
                 {
+                  "nome": "Palmeiras",
                   "sigla": "PAL",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
                 }
@@ -1393,10 +1552,12 @@
               "resultado": "2x0",
               "times": [
                 {
+                  "nome": "Botafogo",
                   "sigla": "BOT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
                 },
                 {
+                  "nome": "América-MG",
                   "sigla": "AME",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/28/America-MG-VERDE-fev2019-01.svg"
                 }
@@ -1415,10 +1576,12 @@
               "resultado": "0x0",
               "times": [
                 {
+                  "nome": "Fortaleza",
                   "sigla": "FOR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/19/Fortaleza_2021_1.svg"
                 },
                 {
+                  "nome": "Bahia",
                   "sigla": "BAH",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
                 }
@@ -1432,10 +1595,12 @@
               "resultado": "0x1",
               "times": [
                 {
+                  "nome": "Cruzeiro",
                   "sigla": "CRU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
                 },
                 {
+                  "nome": "Atlético-MG",
                   "sigla": "CAM",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
                 }
@@ -1449,10 +1614,12 @@
               "resultado": "1x1",
               "times": [
                 {
+                  "nome": "Athletico-PR",
                   "sigla": "CAP",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/09/Athletico-PR.svg"
                 },
                 {
+                  "nome": "Botafogo",
                   "sigla": "BOT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
                 }
@@ -1466,10 +1633,12 @@
               "resultado": "2x0",
               "times": [
                 {
+                  "nome": "América-MG",
                   "sigla": "AME",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/28/America-MG-VERDE-fev2019-01.svg"
                 },
                 {
+                  "nome": "Corinthians",
                   "sigla": "COR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/30/Corinthians.svg"
                 }
@@ -1483,10 +1652,12 @@
               "resultado": "1x1",
               "times": [
                 {
+                  "nome": "Santos",
                   "sigla": "SAN",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
                 },
                 {
+                  "nome": "Internacional",
                   "sigla": "INT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
                 }
@@ -1500,10 +1671,12 @@
               "resultado": "2x1",
               "times": [
                 {
+                  "nome": "Fluminense",
                   "sigla": "FLU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
                 },
                 {
+                  "nome": "Bragantino",
                   "sigla": "RBB",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
                 }
@@ -1517,10 +1690,12 @@
               "resultado": "2x1",
               "times": [
                 {
+                  "nome": "Grêmio",
                   "sigla": "GRE",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
                 },
                 {
+                  "nome": "São Paulo",
                   "sigla": "SAO",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
                 }
@@ -1534,10 +1709,12 @@
               "resultado": "3x1",
               "times": [
                 {
+                  "nome": "Palmeiras",
                   "sigla": "PAL",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
                 },
                 {
+                  "nome": "Coritiba",
                   "sigla": "CFC",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
                 }
@@ -1551,10 +1728,12 @@
               "resultado": "0x1",
               "times": [
                 {
+                  "nome": "Goiás",
                   "sigla": "GOI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/03/01/GOIAS-2021.svg"
                 },
                 {
+                  "nome": "Cuiabá",
                   "sigla": "CUI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/12/26/Cuiaba_EC.svg"
                 }
@@ -1568,10 +1747,12 @@
               "resultado": "1x4",
               "times": [
                 {
+                  "nome": "Vasco",
                   "sigla": "VAS",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
                 },
                 {
+                  "nome": "Flamengo",
                   "sigla": "FLA",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
                 }
@@ -1590,10 +1771,12 @@
               "resultado": "0x0",
               "times": [
                 {
+                  "nome": "Coritiba",
                   "sigla": "CFC",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
                 },
                 {
+                  "nome": "Santos",
                   "sigla": "SAN",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
                 }
@@ -1607,10 +1790,12 @@
               "resultado": "1x1",
               "times": [
                 {
+                  "nome": "Corinthians",
                   "sigla": "COR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/30/Corinthians.svg"
                 },
                 {
+                  "nome": "Cuiabá",
                   "sigla": "CUI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/12/26/Cuiaba_EC.svg"
                 }
@@ -1624,10 +1809,12 @@
               "resultado": "1x1",
               "times": [
                 {
+                  "nome": "Atlético-MG",
                   "sigla": "CAM",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
                 },
                 {
+                  "nome": "Bragantino",
                   "sigla": "RBB",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
                 }
@@ -1641,10 +1828,12 @@
               "resultado": "2x2",
               "times": [
                 {
+                  "nome": "Bahia",
                   "sigla": "BAH",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
                 },
                 {
+                  "nome": "Cruzeiro",
                   "sigla": "CRU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
                 }
@@ -1658,10 +1847,12 @@
               "resultado": "2x0",
               "times": [
                 {
+                  "nome": "Botafogo",
                   "sigla": "BOT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
                 },
                 {
+                  "nome": "Fortaleza",
                   "sigla": "FOR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/19/Fortaleza_2021_1.svg"
                 }
@@ -1675,10 +1866,12 @@
               "resultado": "2x2",
               "times": [
                 {
+                  "nome": "América-MG",
                   "sigla": "AME",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/28/America-MG-VERDE-fev2019-01.svg"
                 },
                 {
+                  "nome": "Athletico-PR",
                   "sigla": "CAP",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/09/Athletico-PR.svg"
                 }
@@ -1692,10 +1885,12 @@
               "resultado": "0x2",
               "times": [
                 {
+                  "nome": "São Paulo",
                   "sigla": "SAO",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
                 },
                 {
+                  "nome": "Palmeiras",
                   "sigla": "PAL",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
                 }
@@ -1709,10 +1904,12 @@
               "resultado": "2x1",
               "times": [
                 {
+                  "nome": "Internacional",
                   "sigla": "INT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
                 },
                 {
+                  "nome": "Vasco",
                   "sigla": "VAS",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
                 }
@@ -1726,10 +1923,12 @@
               "resultado": "3x0",
               "times": [
                 {
+                  "nome": "Flamengo",
                   "sigla": "FLA",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
                 },
                 {
+                  "nome": "Grêmio",
                   "sigla": "GRE",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
                 }
@@ -1743,10 +1942,12 @@
               "resultado": "2x2",
               "times": [
                 {
+                  "nome": "Goiás",
                   "sigla": "GOI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/03/01/GOIAS-2021.svg"
                 },
                 {
+                  "nome": "Fluminense",
                   "sigla": "FLU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
                 }
@@ -1765,10 +1966,12 @@
               "resultado": "2x1",
               "times": [
                 {
+                  "nome": "São Paulo",
                   "sigla": "SAO",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
                 },
                 {
+                  "nome": "Athletico-PR",
                   "sigla": "CAP",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/09/Athletico-PR.svg"
                 }
@@ -1782,10 +1985,12 @@
               "resultado": "0x1",
               "times": [
                 {
+                  "nome": "Cruzeiro",
                   "sigla": "CRU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
                 },
                 {
+                  "nome": "Fortaleza",
                   "sigla": "FOR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/19/Fortaleza_2021_1.svg"
                 }
@@ -1799,10 +2004,12 @@
               "resultado": "0x2",
               "times": [
                 {
+                  "nome": "Santos",
                   "sigla": "SAN",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
                 },
                 {
+                  "nome": "Corinthians",
                   "sigla": "COR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/30/Corinthians.svg"
                 }
@@ -1816,10 +2023,12 @@
               "resultado": "1x1",
               "times": [
                 {
+                  "nome": "Fluminense",
                   "sigla": "FLU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
                 },
                 {
+                  "nome": "Atlético-MG",
                   "sigla": "CAM",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
                 }
@@ -1833,10 +2042,12 @@
               "resultado": "1x0",
               "times": [
                 {
+                  "nome": "Bahia",
                   "sigla": "BAH",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
                 },
                 {
+                  "nome": "Palmeiras",
                   "sigla": "PAL",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
                 }
@@ -1850,10 +2061,12 @@
               "resultado": "3x1",
               "times": [
                 {
+                  "nome": "Grêmio",
                   "sigla": "GRE",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
                 },
                 {
+                  "nome": "América-MG",
                   "sigla": "AME",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/28/America-MG-VERDE-fev2019-01.svg"
                 }
@@ -1867,10 +2080,12 @@
               "resultado": "0x1",
               "times": [
                 {
+                  "nome": "Vasco",
                   "sigla": "VAS",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
                 },
                 {
+                  "nome": "Goiás",
                   "sigla": "GOI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/03/01/GOIAS-2021.svg"
                 }
@@ -1884,10 +2099,12 @@
               "resultado": "0x1",
               "times": [
                 {
+                  "nome": "Coritiba",
                   "sigla": "CFC",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
                 },
                 {
+                  "nome": "Internacional",
                   "sigla": "INT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
                 }
@@ -1901,10 +2118,12 @@
               "resultado": "0x1",
               "times": [
                 {
+                  "nome": "Cuiabá",
                   "sigla": "CUI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/12/26/Cuiaba_EC.svg"
                 },
                 {
+                  "nome": "Botafogo",
                   "sigla": "BOT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
                 }
@@ -1918,10 +2137,12 @@
               "resultado": "4x0",
               "times": [
                 {
+                  "nome": "Bragantino",
                   "sigla": "RBB",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
                 },
                 {
+                  "nome": "Flamengo",
                   "sigla": "FLA",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
                 }
@@ -1940,10 +2161,12 @@
               "resultado": "1x0",
               "times": [
                 {
+                  "nome": "Athletico-PR",
                   "sigla": "CAP",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/09/Athletico-PR.svg"
                 },
                 {
+                  "nome": "Corinthians",
                   "sigla": "COR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/30/Corinthians.svg"
                 }
@@ -1957,10 +2180,12 @@
               "resultado": "2x1",
               "times": [
                 {
+                  "nome": "Fluminense",
                   "sigla": "FLU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
                 },
                 {
+                  "nome": "Bahia",
                   "sigla": "BAH",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
                 }
@@ -1974,10 +2199,12 @@
               "resultado": "2x1",
               "times": [
                 {
+                  "nome": "Fortaleza",
                   "sigla": "FOR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/19/Fortaleza_2021_1.svg"
                 },
                 {
+                  "nome": "Atlético-MG",
                   "sigla": "CAM",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
                 }
@@ -1991,10 +2218,12 @@
               "resultado": "1x0",
               "times": [
                 {
+                  "nome": "Cruzeiro",
                   "sigla": "CRU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
                 },
                 {
+                  "nome": "São Paulo",
                   "sigla": "SAO",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
                 }
@@ -2008,10 +2237,12 @@
               "resultado": "0x1",
               "times": [
                 {
+                  "nome": "Palmeiras",
                   "sigla": "PAL",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
                 },
                 {
+                  "nome": "Botafogo",
                   "sigla": "BOT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
                 }
@@ -2025,10 +2256,12 @@
               "resultado": "5x1",
               "times": [
                 {
+                  "nome": "Grêmio",
                   "sigla": "GRE",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
                 },
                 {
+                  "nome": "Coritiba",
                   "sigla": "CFC",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
                 }
@@ -2042,10 +2275,12 @@
               "resultado": "2x3",
               "times": [
                 {
+                  "nome": "Santos",
                   "sigla": "SAN",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
                 },
                 {
+                  "nome": "Flamengo",
                   "sigla": "FLA",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
                 }
@@ -2059,10 +2294,12 @@
               "resultado": "2x0",
               "times": [
                 {
+                  "nome": "Bragantino",
                   "sigla": "RBB",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
                 },
                 {
+                  "nome": "Goiás",
                   "sigla": "GOI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/03/01/GOIAS-2021.svg"
                 }
@@ -2076,10 +2313,12 @@
               "resultado": "1x2",
               "times": [
                 {
+                  "nome": "América-MG",
                   "sigla": "AME",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/28/America-MG-VERDE-fev2019-01.svg"
                 },
                 {
+                  "nome": "Internacional",
                   "sigla": "INT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
                 }
@@ -2093,10 +2332,12 @@
               "resultado": "1x0",
               "times": [
                 {
+                  "nome": "Vasco",
                   "sigla": "VAS",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
                 },
                 {
+                  "nome": "Cuiabá",
                   "sigla": "CUI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/12/26/Cuiaba_EC.svg"
                 }
@@ -2115,10 +2356,12 @@
               "resultado": "1x0",
               "times": [
                 {
+                  "nome": "São Paulo",
                   "sigla": "SAO",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
                 },
                 {
+                  "nome": "Fluminense",
                   "sigla": "FLU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
                 }
@@ -2132,10 +2375,12 @@
               "resultado": "2x0",
               "times": [
                 {
+                  "nome": "Flamengo",
                   "sigla": "FLA",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
                 },
                 {
+                  "nome": "Fortaleza",
                   "sigla": "FOR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/19/Fortaleza_2021_1.svg"
                 }
@@ -2149,10 +2394,12 @@
               "resultado": "1x2",
               "times": [
                 {
+                  "nome": "Bahia",
                   "sigla": "BAH",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
                 },
                 {
+                  "nome": "Grêmio",
                   "sigla": "GRE",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
                 }
@@ -2166,10 +2413,12 @@
               "resultado": "0x0",
               "times": [
                 {
+                  "nome": "Internacional",
                   "sigla": "INT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
                 },
                 {
+                  "nome": "Cruzeiro",
                   "sigla": "CRU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
                 }
@@ -2183,10 +2432,12 @@
               "resultado": "0x1",
               "times": [
                 {
+                  "nome": "Corinthians",
                   "sigla": "COR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/30/Corinthians.svg"
                 },
                 {
+                  "nome": "Bragantino",
                   "sigla": "RBB",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
                 }
@@ -2200,10 +2451,12 @@
               "resultado": "2x0",
               "times": [
                 {
+                  "nome": "Botafogo",
                   "sigla": "BOT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
                 },
                 {
+                  "nome": "Vasco",
                   "sigla": "VAS",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
                 }
@@ -2217,10 +2470,12 @@
               "resultado": "2x2",
               "times": [
                 {
+                  "nome": "Atlético-MG",
                   "sigla": "CAM",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
                 },
                 {
+                  "nome": "América-MG",
                   "sigla": "AME",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/28/America-MG-VERDE-fev2019-01.svg"
                 }
@@ -2234,10 +2489,12 @@
               "resultado": "2x2",
               "times": [
                 {
+                  "nome": "Athletico-PR",
                   "sigla": "CAP",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/09/Athletico-PR.svg"
                 },
                 {
+                  "nome": "Palmeiras",
                   "sigla": "PAL",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
                 }
@@ -2251,10 +2508,12 @@
               "resultado": "3x0",
               "times": [
                 {
+                  "nome": "Cuiabá",
                   "sigla": "CUI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/12/26/Cuiaba_EC.svg"
                 },
                 {
+                  "nome": "Santos",
                   "sigla": "SAN",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
                 }
@@ -2268,10 +2527,12 @@
               "resultado": "1x2",
               "times": [
                 {
+                  "nome": "Goiás",
                   "sigla": "GOI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/03/01/GOIAS-2021.svg"
                 },
                 {
+                  "nome": "Coritiba",
                   "sigla": "CFC",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
                 }
@@ -2290,10 +2551,12 @@
               "resultado": "0x1",
               "times": [
                 {
+                  "nome": "Vasco",
                   "sigla": "VAS",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
                 },
                 {
+                  "nome": "Cruzeiro",
                   "sigla": "CRU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
                 }
@@ -2307,10 +2570,12 @@
               "resultado": "1x1",
               "times": [
                 {
+                  "nome": "Cuiabá",
                   "sigla": "CUI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/12/26/Cuiaba_EC.svg"
                 },
                 {
+                  "nome": "Bahia",
                   "sigla": "BAH",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
                 }
@@ -2324,10 +2589,12 @@
               "resultado": "0x1",
               "times": [
                 {
+                  "nome": "Atlético-MG",
                   "sigla": "CAM",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
                 },
                 {
+                  "nome": "Corinthians",
                   "sigla": "COR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/30/Corinthians.svg"
                 }
@@ -2341,10 +2608,12 @@
               "resultado": "3x1",
               "times": [
                 {
+                  "nome": "Coritiba",
                   "sigla": "CFC",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
                 },
                 {
+                  "nome": "América-MG",
                   "sigla": "AME",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/28/America-MG-VERDE-fev2019-01.svg"
                 }
@@ -2358,10 +2627,12 @@
               "resultado": "1x1",
               "times": [
                 {
+                  "nome": "Palmeiras",
                   "sigla": "PAL",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
                 },
                 {
+                  "nome": "Flamengo",
                   "sigla": "FLA",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
                 }
@@ -2375,10 +2646,12 @@
               "resultado": "4x3",
               "times": [
                 {
+                  "nome": "Santos",
                   "sigla": "SAN",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
                 },
                 {
+                  "nome": "Goiás",
                   "sigla": "GOI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/03/01/GOIAS-2021.svg"
                 }
@@ -2392,10 +2665,12 @@
               "resultado": "2x0",
               "times": [
                 {
+                  "nome": "Fluminense",
                   "sigla": "FLU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
                 },
                 {
+                  "nome": "Internacional",
                   "sigla": "INT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
                 }
@@ -2409,10 +2684,12 @@
               "resultado": "0x0",
               "times": [
                 {
+                  "nome": "Bragantino",
                   "sigla": "RBB",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
                 },
                 {
+                  "nome": "São Paulo",
                   "sigla": "SAO",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
                 }
@@ -2426,10 +2703,12 @@
               "resultado": "0x2",
               "times": [
                 {
+                  "nome": "Grêmio",
                   "sigla": "GRE",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
                 },
                 {
+                  "nome": "Botafogo",
                   "sigla": "BOT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
                 }
@@ -2443,10 +2722,12 @@
               "resultado": "1x0",
               "times": [
                 {
+                  "nome": "Fortaleza",
                   "sigla": "FOR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/19/Fortaleza_2021_1.svg"
                 },
                 {
+                  "nome": "Athletico-PR",
                   "sigla": "CAP",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/09/Athletico-PR.svg"
                 }
@@ -2465,10 +2746,12 @@
               "resultado": "2x0",
               "times": [
                 {
+                  "nome": "Botafogo",
                   "sigla": "BOT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
                 },
                 {
+                  "nome": "Bragantino",
                   "sigla": "RBB",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
                 }
@@ -2482,10 +2765,12 @@
               "resultado": "0x0",
               "times": [
                 {
+                  "nome": "Cruzeiro",
                   "sigla": "CRU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
                 },
                 {
+                  "nome": "Coritiba",
                   "sigla": "CFC",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
                 }
@@ -2499,10 +2784,12 @@
               "resultado": "0x1",
               "times": [
                 {
+                  "nome": "Atlético-MG",
                   "sigla": "CAM",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
                 },
                 {
+                  "nome": "Corinthians",
                   "sigla": "COR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/30/Corinthians.svg"
                 }
@@ -2516,10 +2803,12 @@
               "resultado": "0x0",
               "times": [
                 {
+                  "nome": "Fluminense",
                   "sigla": "FLU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
                 },
                 {
+                  "nome": "Flamengo",
                   "sigla": "FLA",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
                 }
@@ -2533,10 +2822,12 @@
               "resultado": "4x1",
               "times": [
                 {
+                  "nome": "São Paulo",
                   "sigla": "SAO",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
                 },
                 {
+                  "nome": "Santos",
                   "sigla": "SAN",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
                 }
@@ -2550,10 +2841,12 @@
               "resultado": "0x1",
               "times": [
                 {
+                  "nome": "Fortaleza",
                   "sigla": "FOR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/19/Fortaleza_2021_1.svg"
                 },
                 {
+                  "nome": "Cuiabá",
                   "sigla": "CUI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/12/26/Cuiaba_EC.svg"
                 }
@@ -2567,10 +2860,12 @@
               "resultado": "0x0",
               "times": [
                 {
+                  "nome": "Internacional",
                   "sigla": "INT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
                 },
                 {
+                  "nome": "Palmeiras",
                   "sigla": "PAL",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
                 }
@@ -2584,10 +2879,12 @@
               "resultado": "0x0",
               "times": [
                 {
+                  "nome": "Goiás",
                   "sigla": "GOI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/03/01/GOIAS-2021.svg"
                 },
                 {
+                  "nome": "Atlético-MG",
                   "sigla": "CAM",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
                 }
@@ -2601,10 +2898,12 @@
               "resultado": "4x4",
               "times": [
                 {
+                  "nome": "Corinthians",
                   "sigla": "COR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/30/Corinthians.svg"
                 },
                 {
+                  "nome": "Grêmio",
                   "sigla": "GRE",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
                 }
@@ -2618,10 +2917,12 @@
               "resultado": "0x1",
               "times": [
                 {
+                  "nome": "América-MG",
                   "sigla": "AME",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/28/America-MG-VERDE-fev2019-01.svg"
                 },
                 {
+                  "nome": "Vasco",
                   "sigla": "VAS",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
                 }
@@ -2640,10 +2941,12 @@
               "resultado": "1x1",
               "times": [
                 {
+                  "nome": "Flamengo",
                   "sigla": "FLA",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
                 },
                 {
+                  "nome": "América-MG",
                   "sigla": "AME",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/28/America-MG-VERDE-fev2019-01.svg"
                 }
@@ -2657,10 +2960,12 @@
               "resultado": "3x1",
               "times": [
                 {
+                  "nome": "Palmeiras",
                   "sigla": "PAL",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
                 },
                 {
+                  "nome": "Fortaleza",
                   "sigla": "FOR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/19/Fortaleza_2021_1.svg"
                 }
@@ -2674,10 +2979,12 @@
               "resultado": "0x0",
               "times": [
                 {
+                  "nome": "Palmeiras",
                   "sigla": "PAL",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
                 },
                 {
+                  "nome": "Fortaleza",
                   "sigla": "FOR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/19/Fortaleza_2021_1.svg"
                 }
@@ -2691,10 +2998,12 @@
               "resultado": "2x1",
               "times": [
                 {
+                  "nome": "Cuiabá",
                   "sigla": "CUI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/12/26/Cuiaba_EC.svg"
                 },
                 {
+                  "nome": "São Paulo",
                   "sigla": "SAO",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
                 }
@@ -2708,10 +3017,12 @@
               "resultado": "1x0",
               "times": [
                 {
+                  "nome": "Grêmio",
                   "sigla": "GRE",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
                 },
                 {
+                  "nome": "Atlético-MG",
                   "sigla": "CAM",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
                 }
@@ -2725,10 +3036,12 @@
               "resultado": "2x2",
               "times": [
                 {
+                  "nome": "Santos",
                   "sigla": "SAN",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
                 },
                 {
+                  "nome": "Botafogo",
                   "sigla": "BOT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
                 }
@@ -2742,10 +3055,12 @@
               "resultado": "0x0",
               "times": [
                 {
+                  "nome": "Bragantino",
                   "sigla": "RBB",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
                 },
                 {
+                  "nome": "Internacional",
                   "sigla": "INT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
                 }
@@ -2759,10 +3074,12 @@
               "resultado": "0x1",
               "times": [
                 {
+                  "nome": "Cruzeiro",
                   "sigla": "CRU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
                 },
                 {
+                  "nome": "Goiás",
                   "sigla": "GOI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/03/01/GOIAS-2021.svg"
                 }
@@ -2776,10 +3093,12 @@
               "resultado": "0x2",
               "times": [
                 {
+                  "nome": "Vasco",
                   "sigla": "VAS",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
                 },
                 {
+                  "nome": "Athletico-PR",
                   "sigla": "CAP",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/09/Athletico-PR.svg"
                 }
@@ -2793,10 +3112,12 @@
               "resultado": "2x0",
               "times": [
                 {
+                  "nome": "Coritiba",
                   "sigla": "CFC",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
                 },
                 {
+                  "nome": "Fluminense",
                   "sigla": "FLU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
                 }
@@ -2815,10 +3136,12 @@
               "resultado": "1x0",
               "times": [
                 {
+                  "nome": "Fluminense",
                   "sigla": "FLU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
                 },
                 {
+                  "nome": "Santos",
                   "sigla": "SAN",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
                 }
@@ -2832,10 +3155,12 @@
               "resultado": "1x2",
               "times": [
                 {
+                  "nome": "Internacional",
                   "sigla": "INT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
                 },
                 {
+                  "nome": "Cuiabá",
                   "sigla": "CUI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/12/26/Cuiaba_EC.svg"
                 }
@@ -2849,10 +3174,12 @@
               "resultado": "3x3",
               "times": [
                 {
+                  "nome": "Athletico-PR",
                   "sigla": "CAP",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/09/Athletico-PR.svg"
                 },
                 {
+                  "nome": "Cruzeiro",
                   "sigla": "CRU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
                 }
@@ -2866,10 +3193,12 @@
               "resultado": "3x1",
               "times": [
                 {
+                  "nome": "Corinthians",
                   "sigla": "COR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/30/Corinthians.svg"
                 },
                 {
+                  "nome": "Vasco",
                   "sigla": "VAS",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
                 }
@@ -2883,10 +3212,12 @@
               "resultado": "0x3",
               "times": [
                 {
+                  "nome": "Fortaleza",
                   "sigla": "FOR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/19/Fortaleza_2021_1.svg"
                 },
                 {
+                  "nome": "Bragantino",
                   "sigla": "RBB",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
                 }
@@ -2900,10 +3231,12 @@
               "resultado": "1x2",
               "times": [
                 {
+                  "nome": "Atlético-MG",
                   "sigla": "CAM",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
                 },
                 {
+                  "nome": "Flamengo",
                   "sigla": "FLA",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
                 }
@@ -2917,10 +3250,12 @@
               "resultado": "0x0",
               "times": [
                 {
+                  "nome": "São Paulo",
                   "sigla": "SAO",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
                 },
                 {
+                  "nome": "Bahia",
                   "sigla": "BAH",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
                 }
@@ -2934,10 +3269,12 @@
               "resultado": "4x1",
               "times": [
                 {
+                  "nome": "Botafogo",
                   "sigla": "BOT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
                 },
                 {
+                  "nome": "Coritiba",
                   "sigla": "CFC",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
                 }
@@ -2951,10 +3288,12 @@
               "resultado": "1x4",
               "times": [
                 {
+                  "nome": "América-MG",
                   "sigla": "AME",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/28/America-MG-VERDE-fev2019-01.svg"
                 },
                 {
+                  "nome": "Palmeiras",
                   "sigla": "PAL",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
                 }
@@ -2968,10 +3307,12 @@
               "resultado": "1x1",
               "times": [
                 {
+                  "nome": "Goiás",
                   "sigla": "GOI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/03/01/GOIAS-2021.svg"
                 },
                 {
+                  "nome": "Grêmio",
                   "sigla": "GRE",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
                 }
@@ -2990,10 +3331,12 @@
               "resultado": "1x1",
               "times": [
                 {
+                  "nome": "Santos",
                   "sigla": "SAN",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
                 },
                 {
+                  "nome": "Athletico-PR",
                   "sigla": "CAP",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/09/Athletico-PR.svg"
                 }
@@ -3007,10 +3350,12 @@
               "resultado": "1x0",
               "times": [
                 {
+                  "nome": "Goiás",
                   "sigla": "GOI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/03/01/GOIAS-2021.svg"
                 },
                 {
+                  "nome": "Fortaleza",
                   "sigla": "FOR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/19/Fortaleza_2021_1.svg"
                 }
@@ -3024,10 +3369,12 @@
               "resultado": "2x2",
               "times": [
                 {
+                  "nome": "Internacional",
                   "sigla": "INT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
                 },
                 {
+                  "nome": "Corinthians",
                   "sigla": "COR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/30/Corinthians.svg"
                 }
@@ -3041,10 +3388,12 @@
               "resultado": "2x1",
               "times": [
                 {
+                  "nome": "Fluminense",
                   "sigla": "FLU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
                 },
                 {
+                  "nome": "Palmeiras",
                   "sigla": "PAL",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
                 }
@@ -3058,10 +3407,12 @@
               "resultado": "1x0",
               "times": [
                 {
+                  "nome": "Vasco",
                   "sigla": "VAS",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
                 },
                 {
+                  "nome": "Grêmio",
                   "sigla": "GRE",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
                 }
@@ -3075,10 +3426,12 @@
               "resultado": "0x2",
               "times": [
                 {
+                  "nome": "São Paulo",
                   "sigla": "SAO",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
                 },
                 {
+                  "nome": "Atlético-MG",
                   "sigla": "CAM",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
                 }
@@ -3092,10 +3445,12 @@
               "resultado": "0x0",
               "times": [
                 {
+                  "nome": "Cruzeiro",
                   "sigla": "CRU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
                 },
                 {
+                  "nome": "Botafogo",
                   "sigla": "BOT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
                 }
@@ -3109,10 +3464,12 @@
               "resultado": "0x1",
               "times": [
                 {
+                  "nome": "Coritiba",
                   "sigla": "CFC",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
                 },
                 {
+                  "nome": "Bragantino",
                   "sigla": "RBB",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
                 }
@@ -3126,10 +3483,12 @@
               "resultado": "3x1",
               "times": [
                 {
+                  "nome": "Bahia",
                   "sigla": "BAH",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
                 },
                 {
+                  "nome": "América-MG",
                   "sigla": "AME",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/28/America-MG-VERDE-fev2019-01.svg"
                 }
@@ -3143,10 +3502,12 @@
               "resultado": "3x0",
               "times": [
                 {
+                  "nome": "Bahia",
                   "sigla": "BAH",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
                 },
                 {
+                  "nome": "América-MG",
                   "sigla": "AME",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/28/America-MG-VERDE-fev2019-01.svg"
                 }
@@ -3165,10 +3526,12 @@
               "resultado": "3x1",
               "times": [
                 {
+                  "nome": "Botafogo",
                   "sigla": "BOT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
                 },
                 {
+                  "nome": "Internacional",
                   "sigla": "INT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
                 }
@@ -3182,10 +3545,12 @@
               "resultado": "1x0",
               "times": [
                 {
+                  "nome": "Atlético-MG",
                   "sigla": "CAM",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
                 },
                 {
+                  "nome": "Bahia",
                   "sigla": "BAH",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
                 }
@@ -3199,10 +3564,12 @@
               "resultado": "3x1",
               "times": [
                 {
+                  "nome": "Corinthians",
                   "sigla": "COR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/30/Corinthians.svg"
                 },
                 {
+                  "nome": "Coritiba",
                   "sigla": "CFC",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
                 }
@@ -3216,10 +3583,12 @@
               "resultado": "2x1",
               "times": [
                 {
+                  "nome": "Grêmio",
                   "sigla": "GRE",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
                 },
                 {
+                  "nome": "Fluminense",
                   "sigla": "FLU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
                 }
@@ -3233,10 +3602,12 @@
               "resultado": "0x1",
               "times": [
                 {
+                  "nome": "América-MG",
                   "sigla": "AME",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/28/America-MG-VERDE-fev2019-01.svg"
                 },
                 {
+                  "nome": "Goiás",
                   "sigla": "GOI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/03/01/GOIAS-2021.svg"
                 }
@@ -3250,10 +3621,12 @@
               "resultado": "1x1",
               "times": [
                 {
+                  "nome": "Flamengo",
                   "sigla": "FLA",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
                 },
                 {
+                  "nome": "São Paulo",
                   "sigla": "SAO",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
                 }
@@ -3267,10 +3640,12 @@
               "resultado": "4x0",
               "times": [
                 {
+                  "nome": "Fortaleza",
                   "sigla": "FOR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/19/Fortaleza_2021_1.svg"
                 },
                 {
+                  "nome": "Santos",
                   "sigla": "SAN",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
                 }
@@ -3284,10 +3659,12 @@
               "resultado": "1x0",
               "times": [
                 {
+                  "nome": "Palmeiras",
                   "sigla": "PAL",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
                 },
                 {
+                  "nome": "Cruzeiro",
                   "sigla": "CRU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
                 }
@@ -3301,10 +3678,12 @@
               "resultado": "1x1",
               "times": [
                 {
+                  "nome": "Bragantino",
                   "sigla": "RBB",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
                 },
                 {
+                  "nome": "Vasco",
                   "sigla": "VAS",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
                 }
@@ -3318,10 +3697,12 @@
               "resultado": "2x0",
               "times": [
                 {
+                  "nome": "Athletico-PR",
                   "sigla": "CAP",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/09/Athletico-PR.svg"
                 },
                 {
+                  "nome": "Cuiabá",
                   "sigla": "CUI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/12/26/Cuiaba_EC.svg"
                 }
@@ -3340,10 +3721,12 @@
               "resultado": "0x0",
               "times": [
                 {
+                  "nome": "São Paulo",
                   "sigla": "SAO",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
                 },
                 {
+                  "nome": "Botafogo",
                   "sigla": "BOT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
                 }
@@ -3357,10 +3740,12 @@
               "resultado": "0x1",
               "times": [
                 {
+                  "nome": "Internacional",
                   "sigla": "INT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
                 },
                 {
+                  "nome": "Fortaleza",
                   "sigla": "FOR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/19/Fortaleza_2021_1.svg"
                 }
@@ -3374,10 +3759,12 @@
               "resultado": "3x1",
               "times": [
                 {
+                  "nome": "Fluminense",
                   "sigla": "FLU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
                 },
                 {
+                  "nome": "América-MG",
                   "sigla": "AME",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/28/America-MG-VERDE-fev2019-01.svg"
                 }
@@ -3391,10 +3778,12 @@
               "resultado": "0x2",
               "times": [
                 {
+                  "nome": "Cuiabá",
                   "sigla": "CUI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/12/26/Cuiaba_EC.svg"
                 },
                 {
+                  "nome": "Palmeiras",
                   "sigla": "PAL",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
                 }
@@ -3408,10 +3797,12 @@
               "resultado": "1x1",
               "times": [
                 {
+                  "nome": "Cruzeiro",
                   "sigla": "CRU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
                 },
                 {
+                  "nome": "Corinthians",
                   "sigla": "COR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/30/Corinthians.svg"
                 }
@@ -3425,10 +3816,12 @@
               "resultado": "1x0",
               "times": [
                 {
+                  "nome": "Vasco",
                   "sigla": "VAS",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
                 },
                 {
+                  "nome": "Atlético-MG",
                   "sigla": "CAM",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
                 }
@@ -3442,10 +3835,12 @@
               "resultado": "2x1",
               "times": [
                 {
+                  "nome": "Santos",
                   "sigla": "SAN",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
                 },
                 {
+                  "nome": "Grêmio",
                   "sigla": "GRE",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
                 }
@@ -3459,10 +3854,12 @@
               "resultado": "2x3",
               "times": [
                 {
+                  "nome": "Coritiba",
                   "sigla": "CFC",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
                 },
                 {
+                  "nome": "Flamengo",
                   "sigla": "FLA",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
                 }
@@ -3476,10 +3873,12 @@
               "resultado": "4x0",
               "times": [
                 {
+                  "nome": "Bahia",
                   "sigla": "BAH",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
                 },
                 {
+                  "nome": "Bragantino",
                   "sigla": "RBB",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
                 }
@@ -3493,10 +3892,12 @@
               "resultado": "1x1",
               "times": [
                 {
+                  "nome": "Bahia",
                   "sigla": "BAH",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
                 },
                 {
+                  "nome": "Bragantino",
                   "sigla": "RBB",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
                 }
@@ -3515,10 +3916,12 @@
               "resultado": "0x0",
               "times": [
                 {
+                  "nome": "Flamengo",
                   "sigla": "FLA",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
                 },
                 {
+                  "nome": "Internacional",
                   "sigla": "INT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
                 }
@@ -3532,10 +3935,12 @@
               "resultado": "1x1",
               "times": [
                 {
+                  "nome": "Corinthians",
                   "sigla": "COR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/30/Corinthians.svg"
                 },
                 {
+                  "nome": "Goiás",
                   "sigla": "GOI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/03/01/GOIAS-2021.svg"
                 }
@@ -3549,10 +3954,12 @@
               "resultado": "2x0",
               "times": [
                 {
+                  "nome": "Bragantino",
                   "sigla": "RBB",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
                 },
                 {
+                  "nome": "Cuiabá",
                   "sigla": "CUI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/12/26/Cuiaba_EC.svg"
                 }
@@ -3566,10 +3973,12 @@
               "resultado": "3x0",
               "times": [
                 {
+                  "nome": "Botafogo",
                   "sigla": "BOT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
                 },
                 {
+                  "nome": "Bahia",
                   "sigla": "BAH",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
                 }
@@ -3583,10 +3992,12 @@
               "resultado": "2x0",
               "times": [
                 {
+                  "nome": "Atlético-MG",
                   "sigla": "CAM",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
                 },
                 {
+                  "nome": "Santos",
                   "sigla": "SAN",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
                 }
@@ -3600,10 +4011,12 @@
               "resultado": "2x1",
               "times": [
                 {
+                  "nome": "América-MG",
                   "sigla": "AME",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/28/America-MG-VERDE-fev2019-01.svg"
                 },
                 {
+                  "nome": "São Paulo",
                   "sigla": "SAO",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
                 }
@@ -3617,10 +4030,12 @@
               "resultado": "1x0",
               "times": [
                 {
+                  "nome": "Palmeiras",
                   "sigla": "PAL",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
                 },
                 {
+                  "nome": "Vasco",
                   "sigla": "VAS",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
                 }
@@ -3634,10 +4049,12 @@
               "resultado": "2x2",
               "times": [
                 {
+                  "nome": "Athletico-PR",
                   "sigla": "CAP",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/09/Athletico-PR.svg"
                 },
                 {
+                  "nome": "Fluminense",
                   "sigla": "FLU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
                 }
@@ -3651,10 +4068,12 @@
               "resultado": "3x1",
               "times": [
                 {
+                  "nome": "Fortaleza",
                   "sigla": "FOR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/19/Fortaleza_2021_1.svg"
                 },
                 {
+                  "nome": "Coritiba",
                   "sigla": "CFC",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
                 }
@@ -3668,10 +4087,12 @@
               "resultado": "3x0",
               "times": [
                 {
+                  "nome": "Grêmio",
                   "sigla": "GRE",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
                 },
                 {
+                  "nome": "Cruzeiro",
                   "sigla": "CRU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
                 }
@@ -3690,10 +4111,12 @@
               "resultado": "0x0",
               "times": [
                 {
+                  "nome": "Goiás",
                   "sigla": "GOI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/03/01/GOIAS-2021.svg"
                 },
                 {
+                  "nome": "Internacional",
                   "sigla": "INT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
                 }
@@ -3707,10 +4130,12 @@
               "resultado": "1x1",
               "times": [
                 {
+                  "nome": "Athletico-PR",
                   "sigla": "CAP",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/09/Athletico-PR.svg"
                 },
                 {
+                  "nome": "Atlético-MG",
                   "sigla": "CAM",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
                 }
@@ -3724,10 +4149,12 @@
               "resultado": "1x2",
               "times": [
                 {
+                  "nome": "Botafogo",
                   "sigla": "BOT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
                 },
                 {
+                  "nome": "Flamengo",
                   "sigla": "FLA",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
                 }
@@ -3741,10 +4168,12 @@
               "resultado": "2x0",
               "times": [
                 {
+                  "nome": "Grêmio",
                   "sigla": "GRE",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
                 },
                 {
+                  "nome": "Cuiabá",
                   "sigla": "CUI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/12/26/Cuiaba_EC.svg"
                 }
@@ -3758,10 +4187,12 @@
               "resultado": "1x0",
               "times": [
                 {
+                  "nome": "Fluminense",
                   "sigla": "FLU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
                 },
                 {
+                  "nome": "Fortaleza",
                   "sigla": "FOR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/19/Fortaleza_2021_1.svg"
                 }
@@ -3775,10 +4206,12 @@
               "resultado": "0x0",
               "times": [
                 {
+                  "nome": "Corinthians",
                   "sigla": "COR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/30/Corinthians.svg"
                 },
                 {
+                  "nome": "Palmeiras",
                   "sigla": "PAL",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
                 }
@@ -3792,10 +4225,12 @@
               "resultado": "0x0",
               "times": [
                 {
+                  "nome": "Cruzeiro",
                   "sigla": "CRU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
                 },
                 {
+                  "nome": "Bragantino",
                   "sigla": "RBB",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
                 }
@@ -3809,10 +4244,12 @@
               "resultado": "1x1",
               "times": [
                 {
+                  "nome": "Bahia",
                   "sigla": "BAH",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
                 },
                 {
+                  "nome": "Vasco",
                   "sigla": "VAS",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
                 }
@@ -3826,10 +4263,12 @@
               "resultado": "0x0",
               "times": [
                 {
+                  "nome": "América-MG",
                   "sigla": "AME",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/28/America-MG-VERDE-fev2019-01.svg"
                 },
                 {
+                  "nome": "Santos",
                   "sigla": "SAN",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
                 }
@@ -3843,10 +4282,12 @@
               "resultado": "2x1",
               "times": [
                 {
+                  "nome": "São Paulo",
                   "sigla": "SAO",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
                 },
                 {
+                  "nome": "Coritiba",
                   "sigla": "CFC",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
                 }
@@ -3865,10 +4306,12 @@
               "resultado": "0x3",
               "times": [
                 {
+                  "nome": "Flamengo",
                   "sigla": "FLA",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
                 },
                 {
+                  "nome": "Athletico-PR",
                   "sigla": "CAP",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/09/Athletico-PR.svg"
                 }
@@ -3882,10 +4325,12 @@
               "resultado": "2x1",
               "times": [
                 {
+                  "nome": "Internacional",
                   "sigla": "INT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
                 },
                 {
+                  "nome": "São Paulo",
                   "sigla": "SAO",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
                 }
@@ -3899,10 +4344,12 @@
               "resultado": "0x3",
               "times": [
                 {
+                  "nome": "Santos",
                   "sigla": "SAN",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
                 },
                 {
+                  "nome": "Cruzeiro",
                   "sigla": "CRU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
                 }
@@ -3916,10 +4363,12 @@
               "resultado": "2x1",
               "times": [
                 {
+                  "nome": "Fortaleza",
                   "sigla": "FOR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/19/Fortaleza_2021_1.svg"
                 },
                 {
+                  "nome": "Corinthians",
                   "sigla": "COR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/30/Corinthians.svg"
                 }
@@ -3933,10 +4382,12 @@
               "resultado": "2x4",
               "times": [
                 {
+                  "nome": "Coritiba",
                   "sigla": "CFC",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
                 },
                 {
+                  "nome": "Bahia",
                   "sigla": "BAH",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
                 }
@@ -3950,10 +4401,12 @@
               "resultado": "2x0",
               "times": [
                 {
+                  "nome": "Bragantino",
                   "sigla": "RBB",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
                 },
                 {
+                  "nome": "Grêmio",
                   "sigla": "GRE",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
                 }
@@ -3967,10 +4420,12 @@
               "resultado": "2x2",
               "times": [
                 {
+                  "nome": "Cuiabá",
                   "sigla": "CUI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/12/26/Cuiaba_EC.svg"
                 },
                 {
+                  "nome": "América-MG",
                   "sigla": "AME",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/28/America-MG-VERDE-fev2019-01.svg"
                 }
@@ -3984,10 +4439,12 @@
               "resultado": "1x0",
               "times": [
                 {
+                  "nome": "Palmeiras",
                   "sigla": "PAL",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
                 },
                 {
+                  "nome": "Goiás",
                   "sigla": "GOI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/03/01/GOIAS-2021.svg"
                 }
@@ -4001,10 +4458,12 @@
               "resultado": "4x2",
               "times": [
                 {
+                  "nome": "Vasco",
                   "sigla": "VAS",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
                 },
                 {
+                  "nome": "Fluminense",
                   "sigla": "FLU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
                 }
@@ -4018,10 +4477,12 @@
               "resultado": "1x0",
               "times": [
                 {
+                  "nome": "Atlético-MG",
                   "sigla": "CAM",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
                 },
                 {
+                  "nome": "Botafogo",
                   "sigla": "BOT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
                 }
@@ -4040,10 +4501,12 @@
               "resultado": "1x2",
               "times": [
                 {
+                  "nome": "Bahia",
                   "sigla": "BAH",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
                 },
                 {
+                  "nome": "Santos",
                   "sigla": "SAN",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
                 }
@@ -4057,10 +4520,12 @@
               "resultado": "0x2",
               "times": [
                 {
+                  "nome": "América-MG",
                   "sigla": "AME",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/28/America-MG-VERDE-fev2019-01.svg"
                 },
                 {
+                  "nome": "Bragantino",
                   "sigla": "RBB",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
                 }
@@ -4074,10 +4539,12 @@
               "resultado": "0x0",
               "times": [
                 {
+                  "nome": "Goiás",
                   "sigla": "GOI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/03/01/GOIAS-2021.svg"
                 },
                 {
+                  "nome": "Flamengo",
                   "sigla": "FLA",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
                 }
@@ -4091,10 +4558,12 @@
               "resultado": "1x0",
               "times": [
                 {
+                  "nome": "Fluminense",
                   "sigla": "FLU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
                 },
                 {
+                  "nome": "Cruzeiro",
                   "sigla": "CRU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
                 }
@@ -4108,10 +4577,12 @@
               "resultado": "1x2",
               "times": [
                 {
+                  "nome": "São Paulo",
                   "sigla": "SAO",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
                 },
                 {
+                  "nome": "Fortaleza",
                   "sigla": "FOR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/19/Fortaleza_2021_1.svg"
                 }
@@ -4125,10 +4596,12 @@
               "resultado": "5x1",
               "times": [
                 {
+                  "nome": "Vasco",
                   "sigla": "VAS",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
                 },
                 {
+                  "nome": "Coritiba",
                   "sigla": "CFC",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
                 }
@@ -4142,10 +4615,12 @@
               "resultado": "2x1",
               "times": [
                 {
+                  "nome": "Athletico-PR",
                   "sigla": "CAP",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/09/Athletico-PR.svg"
                 },
                 {
+                  "nome": "Internacional",
                   "sigla": "INT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
                 }
@@ -4159,10 +4634,12 @@
               "resultado": "1x0",
               "times": [
                 {
+                  "nome": "Grêmio",
                   "sigla": "GRE",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
                 },
                 {
+                  "nome": "Palmeiras",
                   "sigla": "PAL",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
                 }
@@ -4176,10 +4653,12 @@
               "resultado": "1x0",
               "times": [
                 {
+                  "nome": "Corinthians",
                   "sigla": "COR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/30/Corinthians.svg"
                 },
                 {
+                  "nome": "Botafogo",
                   "sigla": "BOT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
                 }
@@ -4193,10 +4672,12 @@
               "resultado": "1x0",
               "times": [
                 {
+                  "nome": "Atlético-MG",
                   "sigla": "CAM",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
                 },
                 {
+                  "nome": "Cuiabá",
                   "sigla": "CUI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/12/26/Cuiaba_EC.svg"
                 }
@@ -4215,10 +4696,12 @@
               "resultado": "1x0",
               "times": [
                 {
+                  "nome": "Flamengo",
                   "sigla": "FLA",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
                 },
                 {
+                  "nome": "Bahia",
                   "sigla": "BAH",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
                 }
@@ -4232,10 +4715,12 @@
               "resultado": "1x1",
               "times": [
                 {
+                  "nome": "Fortaleza",
                   "sigla": "FOR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/19/Fortaleza_2021_1.svg"
                 },
                 {
+                  "nome": "Grêmio",
                   "sigla": "GRE",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
                 }
@@ -4249,10 +4734,12 @@
               "resultado": "2x1",
               "times": [
                 {
+                  "nome": "São Paulo",
                   "sigla": "SAO",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
                 },
                 {
+                  "nome": "Corinthians",
                   "sigla": "COR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/30/Corinthians.svg"
                 }
@@ -4266,10 +4753,12 @@
               "resultado": "3x0",
               "times": [
                 {
+                  "nome": "Cuiabá",
                   "sigla": "CUI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/12/26/Cuiaba_EC.svg"
                 },
                 {
+                  "nome": "Fluminense",
                   "sigla": "FLU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
                 }
@@ -4283,10 +4772,12 @@
               "resultado": "0x2",
               "times": [
                 {
+                  "nome": "Internacional",
                   "sigla": "INT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
                 },
                 {
+                  "nome": "Atlético-MG",
                   "sigla": "CAM",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
                 }
@@ -4300,10 +4791,12 @@
               "resultado": "4x1",
               "times": [
                 {
+                  "nome": "Santos",
                   "sigla": "SAN",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
                 },
                 {
+                  "nome": "Vasco",
                   "sigla": "VAS",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
                 }
@@ -4317,10 +4810,12 @@
               "resultado": "1x1",
               "times": [
                 {
+                  "nome": "Cruzeiro",
                   "sigla": "CRU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
                 },
                 {
+                  "nome": "América-MG",
                   "sigla": "AME",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/28/America-MG-VERDE-fev2019-01.svg"
                 }
@@ -4334,10 +4829,12 @@
               "resultado": "2x0",
               "times": [
                 {
+                  "nome": "Coritiba",
                   "sigla": "CFC",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
                 },
                 {
+                  "nome": "Athletico-PR",
                   "sigla": "CAP",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/09/Athletico-PR.svg"
                 }
@@ -4351,10 +4848,12 @@
               "resultado": "1x1",
               "times": [
                 {
+                  "nome": "Bragantino",
                   "sigla": "RBB",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
                 },
                 {
+                  "nome": "Palmeiras",
                   "sigla": "PAL",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
                 }
@@ -4368,10 +4867,12 @@
               "resultado": "1x1",
               "times": [
                 {
+                  "nome": "Botafogo",
                   "sigla": "BOT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
                 },
                 {
+                  "nome": "Goiás",
                   "sigla": "GOI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/03/01/GOIAS-2021.svg"
                 }
@@ -4390,10 +4891,12 @@
               "resultado": "4x6",
               "times": [
                 {
+                  "nome": "Goiás",
                   "sigla": "GOI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/03/01/GOIAS-2021.svg"
                 },
                 {
+                  "nome": "Bahia",
                   "sigla": "BAH",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
                 }
@@ -4407,10 +4910,12 @@
               "resultado": "0x0",
               "times": [
                 {
+                  "nome": "Vasco",
                   "sigla": "VAS",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
                 },
                 {
+                  "nome": "São Paulo",
                   "sigla": "SAO",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
                 }
@@ -4424,10 +4929,12 @@
               "resultado": "1x1",
               "times": [
                 {
+                  "nome": "Corinthians",
                   "sigla": "COR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/30/Corinthians.svg"
                 },
                 {
+                  "nome": "Flamengo",
                   "sigla": "FLA",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
                 }
@@ -4441,10 +4948,12 @@
               "resultado": "0x2",
               "times": [
                 {
+                  "nome": "Fluminense",
                   "sigla": "FLU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
                 },
                 {
+                  "nome": "Botafogo",
                   "sigla": "BOT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
                 }
@@ -4458,10 +4967,12 @@
               "resultado": "1x2",
               "times": [
                 {
+                  "nome": "Palmeiras",
                   "sigla": "PAL",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
                 },
                 {
+                  "nome": "Santos",
                   "sigla": "SAN",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
                 }
@@ -4475,10 +4986,12 @@
               "resultado": "3x2",
               "times": [
                 {
+                  "nome": "Internacional",
                   "sigla": "INT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
                 },
                 {
+                  "nome": "Grêmio",
                   "sigla": "GRE",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
                 }
@@ -4492,10 +5005,12 @@
               "resultado": "1x2",
               "times": [
                 {
+                  "nome": "Atlético-MG",
                   "sigla": "CAM",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
                 },
                 {
+                  "nome": "Coritiba",
                   "sigla": "CFC",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
                 }
@@ -4509,10 +5024,12 @@
               "resultado": "1x1",
               "times": [
                 {
+                  "nome": "Athletico-PR",
                   "sigla": "CAP",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/09/Athletico-PR.svg"
                 },
                 {
+                  "nome": "Bragantino",
                   "sigla": "RBB",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
                 }
@@ -4526,10 +5043,12 @@
               "resultado": "3x2",
               "times": [
                 {
+                  "nome": "Fortaleza",
                   "sigla": "FOR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/19/Fortaleza_2021_1.svg"
                 },
                 {
+                  "nome": "América-MG",
                   "sigla": "AME",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/28/America-MG-VERDE-fev2019-01.svg"
                 }
@@ -4543,10 +5062,12 @@
               "resultado": "0x0",
               "times": [
                 {
+                  "nome": "Fortaleza",
                   "sigla": "FOR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/19/Fortaleza_2021_1.svg"
                 },
                 {
+                  "nome": "América-MG",
                   "sigla": "AME",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/28/America-MG-VERDE-fev2019-01.svg"
                 }
@@ -4565,10 +5086,12 @@
               "resultado": "1x2",
               "times": [
                 {
+                  "nome": "Grêmio",
                   "sigla": "GRE",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
                 },
                 {
+                  "nome": "Athletico-PR",
                   "sigla": "CAP",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/09/Athletico-PR.svg"
                 }
@@ -4582,10 +5105,12 @@
               "resultado": "0x3",
               "times": [
                 {
+                  "nome": "Coritiba",
                   "sigla": "CFC",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
                 },
                 {
+                  "nome": "Cuiabá",
                   "sigla": "CUI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/12/26/Cuiaba_EC.svg"
                 }
@@ -4599,10 +5124,12 @@
               "resultado": "1x2",
               "times": [
                 {
+                  "nome": "América-MG",
                   "sigla": "AME",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/28/America-MG-VERDE-fev2019-01.svg"
                 },
                 {
+                  "nome": "Botafogo",
                   "sigla": "BOT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
                 }
@@ -4616,10 +5143,12 @@
               "resultado": "1x0",
               "times": [
                 {
+                  "nome": "Vasco",
                   "sigla": "VAS",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
                 },
                 {
+                  "nome": "Fortaleza",
                   "sigla": "FOR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/19/Fortaleza_2021_1.svg"
                 }
@@ -4633,10 +5162,12 @@
               "resultado": "2x0",
               "times": [
                 {
+                  "nome": "Goiás",
                   "sigla": "GOI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/03/01/GOIAS-2021.svg"
                 },
                 {
+                  "nome": "São Paulo",
                   "sigla": "SAO",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
                 }
@@ -4650,10 +5181,12 @@
               "resultado": "1x0",
               "times": [
                 {
+                  "nome": "Bahia",
                   "sigla": "BAH",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
                 },
                 {
+                  "nome": "Internacional",
                   "sigla": "INT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
                 }
@@ -4667,10 +5200,12 @@
               "resultado": "0x2",
               "times": [
                 {
+                  "nome": "Palmeiras",
                   "sigla": "PAL",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
                 },
                 {
+                  "nome": "Atlético-MG",
                   "sigla": "CAM",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
                 }
@@ -4684,10 +5219,12 @@
               "resultado": "0x2",
               "times": [
                 {
+                  "nome": "Cruzeiro",
                   "sigla": "CRU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
                 },
                 {
+                  "nome": "Flamengo",
                   "sigla": "FLA",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
                 }
@@ -4701,10 +5238,12 @@
               "resultado": "1x3",
               "times": [
                 {
+                  "nome": "Santos",
                   "sigla": "SAN",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
                 },
                 {
+                  "nome": "Bragantino",
                   "sigla": "RBB",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
                 }
@@ -4718,10 +5257,12 @@
               "resultado": "3x3",
               "times": [
                 {
+                  "nome": "Santos",
                   "sigla": "SAN",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
                 },
                 {
+                  "nome": "Bragantino",
                   "sigla": "RBB",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
                 }
@@ -4740,10 +5281,12 @@
               "resultado": "3x0",
               "times": [
                 {
+                  "nome": "São Paulo",
                   "sigla": "SAO",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
                 },
                 {
+                  "nome": "Grêmio",
                   "sigla": "GRE",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
                 }
@@ -4757,10 +5300,12 @@
               "resultado": "2x0",
               "times": [
                 {
+                  "nome": "Bahia",
                   "sigla": "BAH",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
                 },
                 {
+                  "nome": "Fortaleza",
                   "sigla": "FOR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/19/Fortaleza_2021_1.svg"
                 }
@@ -4774,10 +5319,12 @@
               "resultado": "1x1",
               "times": [
                 {
+                  "nome": "Cuiabá",
                   "sigla": "CUI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/12/26/Cuiaba_EC.svg"
                 },
                 {
+                  "nome": "Goiás",
                   "sigla": "GOI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/03/01/GOIAS-2021.svg"
                 }
@@ -4791,10 +5338,12 @@
               "resultado": "1x1",
               "times": [
                 {
+                  "nome": "Botafogo",
                   "sigla": "BOT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
                 },
                 {
+                  "nome": "Athletico-PR",
                   "sigla": "CAP",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/09/Athletico-PR.svg"
                 }
@@ -4808,10 +5357,12 @@
               "resultado": "1x0",
               "times": [
                 {
+                  "nome": "Flamengo",
                   "sigla": "FLA",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
                 },
                 {
+                  "nome": "Vasco",
                   "sigla": "VAS",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
                 }
@@ -4825,10 +5376,12 @@
               "resultado": "0x1",
               "times": [
                 {
+                  "nome": "Atlético-MG",
                   "sigla": "CAM",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
                 },
                 {
+                  "nome": "Cruzeiro",
                   "sigla": "CRU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
                 }
@@ -4842,10 +5395,12 @@
               "resultado": "7x1",
               "times": [
                 {
+                  "nome": "Internacional",
                   "sigla": "INT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
                 },
                 {
+                  "nome": "Santos",
                   "sigla": "SAN",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
                 }
@@ -4859,10 +5414,12 @@
               "resultado": "1x1",
               "times": [
                 {
+                  "nome": "Corinthians",
                   "sigla": "COR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/30/Corinthians.svg"
                 },
                 {
+                  "nome": "América-MG",
                   "sigla": "AME",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/28/America-MG-VERDE-fev2019-01.svg"
                 }
@@ -4876,10 +5433,12 @@
               "resultado": "2x1",
               "times": [
                 {
+                  "nome": "Bragantino",
                   "sigla": "RBB",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
                 },
                 {
+                  "nome": "Fluminense",
                   "sigla": "FLU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
                 }
@@ -4893,10 +5452,12 @@
               "resultado": "0x2",
               "times": [
                 {
+                  "nome": "Coritiba",
                   "sigla": "CFC",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
                 },
                 {
+                  "nome": "Palmeiras",
                   "sigla": "PAL",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
                 }
@@ -4915,10 +5476,12 @@
               "resultado": "5x3",
               "times": [
                 {
+                  "nome": "Fluminense",
                   "sigla": "FLU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
                 },
                 {
+                  "nome": "Goiás",
                   "sigla": "GOI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/03/01/GOIAS-2021.svg"
                 }
@@ -4932,10 +5495,12 @@
               "resultado": "1x2",
               "times": [
                 {
+                  "nome": "Bragantino",
                   "sigla": "RBB",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
                 },
                 {
+                  "nome": "Atlético-MG",
                   "sigla": "CAM",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
                 }
@@ -4949,10 +5514,12 @@
               "resultado": "3x2",
               "times": [
                 {
+                  "nome": "Athletico-PR",
                   "sigla": "CAP",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/09/Athletico-PR.svg"
                 },
                 {
+                  "nome": "América-MG",
                   "sigla": "AME",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/28/America-MG-VERDE-fev2019-01.svg"
                 }
@@ -4966,10 +5533,12 @@
               "resultado": "5x0",
               "times": [
                 {
+                  "nome": "Palmeiras",
                   "sigla": "PAL",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
                 },
                 {
+                  "nome": "São Paulo",
                   "sigla": "SAO",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
                 }
@@ -4983,10 +5552,12 @@
               "resultado": "3x0",
               "times": [
                 {
+                  "nome": "Cruzeiro",
                   "sigla": "CRU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
                 },
                 {
+                  "nome": "Bahia",
                   "sigla": "BAH",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
                 }
@@ -5000,10 +5571,12 @@
               "resultado": "3x2",
               "times": [
                 {
+                  "nome": "Grêmio",
                   "sigla": "GRE",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
                 },
                 {
+                  "nome": "Flamengo",
                   "sigla": "FLA",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
                 }
@@ -5017,10 +5590,12 @@
               "resultado": "0x1",
               "times": [
                 {
+                  "nome": "Cuiabá",
                   "sigla": "CUI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/12/26/Cuiaba_EC.svg"
                 },
                 {
+                  "nome": "Corinthians",
                   "sigla": "COR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/30/Corinthians.svg"
                 }
@@ -5034,10 +5609,12 @@
               "resultado": "1x2",
               "times": [
                 {
+                  "nome": "Vasco",
                   "sigla": "VAS",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
                 },
                 {
+                  "nome": "Internacional",
                   "sigla": "INT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
                 }
@@ -5051,10 +5628,12 @@
               "resultado": "2x1",
               "times": [
                 {
+                  "nome": "Santos",
                   "sigla": "SAN",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
                 },
                 {
+                  "nome": "Coritiba",
                   "sigla": "CFC",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
                 }
@@ -5068,10 +5647,12 @@
               "resultado": "2x2",
               "times": [
                 {
+                  "nome": "Fortaleza",
                   "sigla": "FOR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/19/Fortaleza_2021_1.svg"
                 },
                 {
+                  "nome": "Botafogo",
                   "sigla": "BOT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
                 }
@@ -5090,10 +5671,12 @@
               "resultado": "1x0",
               "times": [
                 {
+                  "nome": "Palmeiras",
                   "sigla": "PAL",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
                 },
                 {
+                  "nome": "Bahia",
                   "sigla": "BAH",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
                 }
@@ -5107,10 +5690,12 @@
               "resultado": "3x4",
               "times": [
                 {
+                  "nome": "América-MG",
                   "sigla": "AME",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/28/America-MG-VERDE-fev2019-01.svg"
                 },
                 {
+                  "nome": "Grêmio",
                   "sigla": "GRE",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
                 }
@@ -5124,10 +5709,12 @@
               "resultado": "2x0",
               "times": [
                 {
+                  "nome": "Atlético-MG",
                   "sigla": "CAM",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
                 },
                 {
+                  "nome": "Fluminense",
                   "sigla": "FLU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
                 }
@@ -5141,10 +5728,12 @@
               "resultado": "1x1",
               "times": [
                 {
+                  "nome": "Goiás",
                   "sigla": "GOI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/03/01/GOIAS-2021.svg"
                 },
                 {
+                  "nome": "Vasco",
                   "sigla": "VAS",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
                 }
@@ -5158,10 +5747,12 @@
               "resultado": "1x1",
               "times": [
                 {
+                  "nome": "Athletico-PR",
                   "sigla": "CAP",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/09/Athletico-PR.svg"
                 },
                 {
+                  "nome": "São Paulo",
                   "sigla": "SAO",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
                 }
@@ -5175,10 +5766,12 @@
               "resultado": "1x1",
               "times": [
                 {
+                  "nome": "Corinthians",
                   "sigla": "COR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/30/Corinthians.svg"
                 },
                 {
+                  "nome": "Santos",
                   "sigla": "SAN",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
                 }
@@ -5192,10 +5785,12 @@
               "resultado": "3x4",
               "times": [
                 {
+                  "nome": "Internacional",
                   "sigla": "INT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
                 },
                 {
+                  "nome": "Coritiba",
                   "sigla": "CFC",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
                 }
@@ -5209,10 +5804,12 @@
               "resultado": "0x1",
               "times": [
                 {
+                  "nome": "Botafogo",
                   "sigla": "BOT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
                 },
                 {
+                  "nome": "Cuiabá",
                   "sigla": "CUI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/12/26/Cuiaba_EC.svg"
                 }
@@ -5226,10 +5823,12 @@
               "resultado": "0x2",
               "times": [
                 {
+                  "nome": "Fortaleza",
                   "sigla": "FOR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/19/Fortaleza_2021_1.svg"
                 },
                 {
+                  "nome": "Cruzeiro",
                   "sigla": "CRU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
                 }
@@ -5243,10 +5842,12 @@
               "resultado": "1x0",
               "times": [
                 {
+                  "nome": "São Paulo",
                   "sigla": "SAO",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
                 },
                 {
+                  "nome": "Cruzeiro",
                   "sigla": "CRU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
                 }
@@ -5265,10 +5866,12 @@
               "resultado": "1x0",
               "times": [
                 {
+                  "nome": "Bahia",
                   "sigla": "BAH",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
                 },
                 {
+                  "nome": "Fluminense",
                   "sigla": "FLU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
                 }
@@ -5282,10 +5885,12 @@
               "resultado": "1x0",
               "times": [
                 {
+                  "nome": "Corinthians",
                   "sigla": "COR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/30/Corinthians.svg"
                 },
                 {
+                  "nome": "Athletico-PR",
                   "sigla": "CAP",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/09/Athletico-PR.svg"
                 }
@@ -5299,10 +5904,12 @@
               "resultado": "1x1",
               "times": [
                 {
+                  "nome": "Internacional",
                   "sigla": "INT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
                 },
                 {
+                  "nome": "América-MG",
                   "sigla": "AME",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/28/America-MG-VERDE-fev2019-01.svg"
                 }
@@ -5316,10 +5923,12 @@
               "resultado": "1x2",
               "times": [
                 {
+                  "nome": "Flamengo",
                   "sigla": "FLA",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
                 },
                 {
+                  "nome": "Santos",
                   "sigla": "SAN",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
                 }
@@ -5333,10 +5942,12 @@
               "resultado": "1x2",
               "times": [
                 {
+                  "nome": "Coritiba",
                   "sigla": "CFC",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
                 },
                 {
+                  "nome": "Grêmio",
                   "sigla": "GRE",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
                 }
@@ -5350,10 +5961,12 @@
               "resultado": "3x1",
               "times": [
                 {
+                  "nome": "Atlético-MG",
                   "sigla": "CAM",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
                 },
                 {
+                  "nome": "Fortaleza",
                   "sigla": "FOR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/19/Fortaleza_2021_1.svg"
                 }
@@ -5367,10 +5980,12 @@
               "resultado": "3x4",
               "times": [
                 {
+                  "nome": "Botafogo",
                   "sigla": "BOT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
                 },
                 {
+                  "nome": "Palmeiras",
                   "sigla": "PAL",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
                 }
@@ -5384,10 +5999,12 @@
               "resultado": "0x2",
               "times": [
                 {
+                  "nome": "Cuiabá",
                   "sigla": "CUI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/12/26/Cuiaba_EC.svg"
                 },
                 {
+                  "nome": "Vasco",
                   "sigla": "VAS",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
                 }
@@ -5401,10 +6018,12 @@
               "resultado": "0x2",
               "times": [
                 {
+                  "nome": "Goiás",
                   "sigla": "GOI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/03/01/GOIAS-2021.svg"
                 },
                 {
+                  "nome": "Bragantino",
                   "sigla": "RBB",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
                 }
@@ -5418,10 +6037,12 @@
               "resultado": "1x0",
               "times": [
                 {
+                  "nome": "São Paulo",
                   "sigla": "SAO",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
                 },
                 {
+                  "nome": "Cruzeiro",
                   "sigla": "CRU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
                 }
@@ -5440,10 +6061,12 @@
               "resultado": "1x0",
               "times": [
                 {
+                  "nome": "Grêmio",
                   "sigla": "GRE",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
                 },
                 {
+                  "nome": "Bahia",
                   "sigla": "BAH",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
                 }
@@ -5457,10 +6080,12 @@
               "resultado": "1x1",
               "times": [
                 {
+                  "nome": "América-MG",
                   "sigla": "AME",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/28/America-MG-VERDE-fev2019-01.svg"
                 },
                 {
+                  "nome": "Atlético-MG",
                   "sigla": "CAM",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
                 }
@@ -5474,10 +6099,12 @@
               "resultado": "1x0",
               "times": [
                 {
+                  "nome": "Palmeiras",
                   "sigla": "PAL",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
                 },
                 {
+                  "nome": "Athletico-PR",
                   "sigla": "CAP",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/09/Athletico-PR.svg"
                 }
@@ -5491,10 +6118,12 @@
               "resultado": "1x0",
               "times": [
                 {
+                  "nome": "Bragantino",
                   "sigla": "RBB",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
                 },
                 {
+                  "nome": "Corinthians",
                   "sigla": "COR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/30/Corinthians.svg"
                 }
@@ -5508,10 +6137,12 @@
               "resultado": "1x2",
               "times": [
                 {
+                  "nome": "Cruzeiro",
                   "sigla": "CRU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
                 },
                 {
+                  "nome": "Internacional",
                   "sigla": "INT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
                 }
@@ -5525,10 +6156,12 @@
               "resultado": "0x2",
               "times": [
                 {
+                  "nome": "Fortaleza",
                   "sigla": "FOR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/19/Fortaleza_2021_1.svg"
                 },
                 {
+                  "nome": "Flamengo",
                   "sigla": "FLA",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
                 }
@@ -5542,10 +6175,12 @@
               "resultado": "0x1",
               "times": [
                 {
+                  "nome": "Coritiba",
                   "sigla": "CFC",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
                 },
                 {
+                  "nome": "Goiás",
                   "sigla": "GOI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/03/01/GOIAS-2021.svg"
                 }
@@ -5559,10 +6194,12 @@
               "resultado": "1x0",
               "times": [
                 {
+                  "nome": "Vasco",
                   "sigla": "VAS",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
                 },
                 {
+                  "nome": "Botafogo",
                   "sigla": "BOT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
                 }
@@ -5576,10 +6213,12 @@
               "resultado": "0x0",
               "times": [
                 {
+                  "nome": "Santos",
                   "sigla": "SAN",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
                 },
                 {
+                  "nome": "Cuiabá",
                   "sigla": "CUI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/12/26/Cuiaba_EC.svg"
                 }
@@ -5593,10 +6232,12 @@
               "resultado": "1x0",
               "times": [
                 {
+                  "nome": "Fluminense",
                   "sigla": "FLU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
                 },
                 {
+                  "nome": "São Paulo",
                   "sigla": "SAO",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
                 }
@@ -5615,10 +6256,12 @@
               "resultado": "0x0",
               "times": [
                 {
+                  "nome": "Internacional",
                   "sigla": "INT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
                 },
                 {
+                  "nome": "Fluminense",
                   "sigla": "FLU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
                 }
@@ -5632,10 +6275,12 @@
               "resultado": "0x3",
               "times": [
                 {
+                  "nome": "América-MG",
                   "sigla": "AME",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/28/America-MG-VERDE-fev2019-01.svg"
                 },
                 {
+                  "nome": "Coritiba",
                   "sigla": "CFC",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
                 }
@@ -5649,10 +6294,12 @@
               "resultado": "1x0",
               "times": [
                 {
+                  "nome": "São Paulo",
                   "sigla": "SAO",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
                 },
                 {
+                  "nome": "Bragantino",
                   "sigla": "RBB",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
                 }
@@ -5666,10 +6313,12 @@
               "resultado": "1x1",
               "times": [
                 {
+                  "nome": "Athletico-PR",
                   "sigla": "CAP",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/09/Athletico-PR.svg"
                 },
                 {
+                  "nome": "Fortaleza",
                   "sigla": "FOR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/19/Fortaleza_2021_1.svg"
                 }
@@ -5683,10 +6332,12 @@
               "resultado": "3x0",
               "times": [
                 {
+                  "nome": "Flamengo",
                   "sigla": "FLA",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
                 },
                 {
+                  "nome": "Palmeiras",
                   "sigla": "PAL",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
                 }
@@ -5700,10 +6351,12 @@
               "resultado": "1x1",
               "times": [
                 {
+                  "nome": "Corinthians",
                   "sigla": "COR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/30/Corinthians.svg"
                 },
                 {
+                  "nome": "Atlético-MG",
                   "sigla": "CAM",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
                 }
@@ -5717,10 +6370,12 @@
               "resultado": "0x1",
               "times": [
                 {
+                  "nome": "Goiás",
                   "sigla": "GOI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/03/01/GOIAS-2021.svg"
                 },
                 {
+                  "nome": "Santos",
                   "sigla": "SAN",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
                 }
@@ -5734,10 +6389,12 @@
               "resultado": "3x4",
               "times": [
                 {
+                  "nome": "Botafogo",
                   "sigla": "BOT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
                 },
                 {
+                  "nome": "Grêmio",
                   "sigla": "GRE",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
                 }
@@ -5751,10 +6408,12 @@
               "resultado": "0x3",
               "times": [
                 {
+                  "nome": "Bahia",
                   "sigla": "BAH",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
                 },
                 {
+                  "nome": "Cuiabá",
                   "sigla": "CUI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/12/26/Cuiaba_EC.svg"
                 }
@@ -5768,10 +6427,12 @@
               "resultado": "2x2",
               "times": [
                 {
+                  "nome": "Fluminense",
                   "sigla": "FLU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
                 },
                 {
+                  "nome": "São Paulo",
                   "sigla": "SAO",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
                 }
@@ -5790,10 +6451,12 @@
               "resultado": "1x0",
               "times": [
                 {
+                  "nome": "Coritiba",
                   "sigla": "CFC",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
                 },
                 {
+                  "nome": "Cruzeiro",
                   "sigla": "CRU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
                 }
@@ -5807,10 +6470,12 @@
               "resultado": "1x1",
               "times": [
                 {
+                  "nome": "Flamengo",
                   "sigla": "FLA",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
                 },
                 {
+                  "nome": "Fluminense",
                   "sigla": "FLU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
                 }
@@ -5824,10 +6489,12 @@
               "resultado": "3x0",
               "times": [
                 {
+                  "nome": "Palmeiras",
                   "sigla": "PAL",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
                 },
                 {
+                  "nome": "Internacional",
                   "sigla": "INT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
                 }
@@ -5841,10 +6508,12 @@
               "resultado": "2x2",
               "times": [
                 {
+                  "nome": "Bragantino",
                   "sigla": "RBB",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
                 },
                 {
+                  "nome": "Botafogo",
                   "sigla": "BOT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
                 }
@@ -5858,10 +6527,12 @@
               "resultado": "0x1",
               "times": [
                 {
+                  "nome": "Grêmio",
                   "sigla": "GRE",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
                 },
                 {
+                  "nome": "Corinthians",
                   "sigla": "COR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/30/Corinthians.svg"
                 }
@@ -5875,10 +6546,12 @@
               "resultado": "2x1",
               "times": [
                 {
+                  "nome": "Vasco",
                   "sigla": "VAS",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
                 },
                 {
+                  "nome": "América-MG",
                   "sigla": "AME",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/28/America-MG-VERDE-fev2019-01.svg"
                 }
@@ -5892,10 +6565,12 @@
               "resultado": "0x0",
               "times": [
                 {
+                  "nome": "Santos",
                   "sigla": "SAN",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
                 },
                 {
+                  "nome": "São Paulo",
                   "sigla": "SAO",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
                 }
@@ -5909,10 +6584,12 @@
               "resultado": "2x1",
               "times": [
                 {
+                  "nome": "Atlético-MG",
                   "sigla": "CAM",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
                 },
                 {
+                  "nome": "Goiás",
                   "sigla": "GOI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/03/01/GOIAS-2021.svg"
                 }
@@ -5926,10 +6603,12 @@
               "resultado": "1x1",
               "times": [
                 {
+                  "nome": "Bahia",
                   "sigla": "BAH",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
                 },
                 {
+                  "nome": "Athletico-PR",
                   "sigla": "CAP",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/09/Athletico-PR.svg"
                 }
@@ -5943,10 +6622,12 @@
               "resultado": "2x1",
               "times": [
                 {
+                  "nome": "Cuiabá",
                   "sigla": "CUI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/12/26/Cuiaba_EC.svg"
                 },
                 {
+                  "nome": "Fortaleza",
                   "sigla": "FOR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/19/Fortaleza_2021_1.svg"
                 }
@@ -5965,10 +6646,12 @@
               "resultado": "1x5",
               "times": [
                 {
+                  "nome": "Corinthians",
                   "sigla": "COR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/30/Corinthians.svg"
                 },
                 {
+                  "nome": "Bahia",
                   "sigla": "BAH",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
                 }
@@ -5982,10 +6665,12 @@
               "resultado": "0x0",
               "times": [
                 {
+                  "nome": "Athletico-PR",
                   "sigla": "CAP",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/09/Athletico-PR.svg"
                 },
                 {
+                  "nome": "Vasco",
                   "sigla": "VAS",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
                 }
@@ -5999,10 +6684,12 @@
               "resultado": "2x1",
               "times": [
                 {
+                  "nome": "Fluminense",
                   "sigla": "FLU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
                 },
                 {
+                  "nome": "Coritiba",
                   "sigla": "CFC",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
                 }
@@ -6016,10 +6703,12 @@
               "resultado": "1x1",
               "times": [
                 {
+                  "nome": "Botafogo",
                   "sigla": "BOT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
                 },
                 {
+                  "nome": "Santos",
                   "sigla": "SAN",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
                 }
@@ -6033,10 +6722,12 @@
               "resultado": "3x0",
               "times": [
                 {
+                  "nome": "Atlético-MG",
                   "sigla": "CAM",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
                 },
                 {
+                  "nome": "Grêmio",
                   "sigla": "GRE",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
                 }
@@ -6050,10 +6741,12 @@
               "resultado": "0x0",
               "times": [
                 {
+                  "nome": "São Paulo",
                   "sigla": "SAO",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
                 },
                 {
+                  "nome": "Cuiabá",
                   "sigla": "CUI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/12/26/Cuiaba_EC.svg"
                 }
@@ -6067,10 +6760,12 @@
               "resultado": "1x0",
               "times": [
                 {
+                  "nome": "Internacional",
                   "sigla": "INT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
                 },
                 {
+                  "nome": "Bragantino",
                   "sigla": "RBB",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
                 }
@@ -6084,10 +6779,12 @@
               "resultado": "2x2",
               "times": [
                 {
+                  "nome": "Fortaleza",
                   "sigla": "FOR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/19/Fortaleza_2021_1.svg"
                 },
                 {
+                  "nome": "Palmeiras",
                   "sigla": "PAL",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
                 }
@@ -6101,10 +6798,12 @@
               "resultado": "0x3",
               "times": [
                 {
+                  "nome": "América-MG",
                   "sigla": "AME",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/28/America-MG-VERDE-fev2019-01.svg"
                 },
                 {
+                  "nome": "Flamengo",
                   "sigla": "FLA",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
                 }
@@ -6118,10 +6817,12 @@
               "resultado": "0x1",
               "times": [
                 {
+                  "nome": "Goiás",
                   "sigla": "GOI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/03/01/GOIAS-2021.svg"
                 },
                 {
+                  "nome": "Cruzeiro",
                   "sigla": "CRU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
                 }
@@ -6140,10 +6841,12 @@
               "resultado": "2x4",
               "times": [
                 {
+                  "nome": "Vasco",
                   "sigla": "VAS",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
                 },
                 {
+                  "nome": "Corinthians",
                   "sigla": "COR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/30/Corinthians.svg"
                 }
@@ -6157,10 +6860,12 @@
               "resultado": "0x3",
               "times": [
                 {
+                  "nome": "Santos",
                   "sigla": "SAN",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
                 },
                 {
+                  "nome": "Fluminense",
                   "sigla": "FLU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
                 }
@@ -6174,10 +6879,12 @@
               "resultado": "0x3",
               "times": [
                 {
+                  "nome": "Flamengo",
                   "sigla": "FLA",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
                 },
                 {
+                  "nome": "Atlético-MG",
                   "sigla": "CAM",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
                 }
@@ -6191,10 +6898,12 @@
               "resultado": "0x1",
               "times": [
                 {
+                  "nome": "Bahia",
                   "sigla": "BAH",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
                 },
                 {
+                  "nome": "São Paulo",
                   "sigla": "SAO",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
                 }
@@ -6208,10 +6917,12 @@
               "resultado": "0x2",
               "times": [
                 {
+                  "nome": "Cuiabá",
                   "sigla": "CUI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/12/26/Cuiaba_EC.svg"
                 },
                 {
+                  "nome": "Internacional",
                   "sigla": "INT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
                 }
@@ -6225,10 +6936,12 @@
               "resultado": "4x0",
               "times": [
                 {
+                  "nome": "Palmeiras",
                   "sigla": "PAL",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
                 },
                 {
+                  "nome": "América-MG",
                   "sigla": "AME",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/28/America-MG-VERDE-fev2019-01.svg"
                 }
@@ -6242,10 +6955,12 @@
               "resultado": "1x1",
               "times": [
                 {
+                  "nome": "Coritiba",
                   "sigla": "CFC",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
                 },
                 {
+                  "nome": "Botafogo",
                   "sigla": "BOT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
                 }
@@ -6259,10 +6974,12 @@
               "resultado": "2x1",
               "times": [
                 {
+                  "nome": "Grêmio",
                   "sigla": "GRE",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
                 },
                 {
+                  "nome": "Goiás",
                   "sigla": "GOI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/03/01/GOIAS-2021.svg"
                 }
@@ -6276,10 +6993,12 @@
               "resultado": "1x1",
               "times": [
                 {
+                  "nome": "Cruzeiro",
                   "sigla": "CRU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
                 },
                 {
+                  "nome": "Athletico-PR",
                   "sigla": "CAP",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/09/Athletico-PR.svg"
                 }
@@ -6293,10 +7012,12 @@
               "resultado": "1x2",
               "times": [
                 {
+                  "nome": "Bragantino",
                   "sigla": "RBB",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
                 },
                 {
+                  "nome": "Fortaleza",
                   "sigla": "FOR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/19/Fortaleza_2021_1.svg"
                 }
@@ -6315,10 +7036,12 @@
               "resultado": "1x2",
               "times": [
                 {
+                  "nome": "Corinthians",
                   "sigla": "COR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/30/Corinthians.svg"
                 },
                 {
+                  "nome": "Internacional",
                   "sigla": "INT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
                 }
@@ -6332,10 +7055,12 @@
               "resultado": "2x1",
               "times": [
                 {
+                  "nome": "Atlético-MG",
                   "sigla": "CAM",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
                 },
                 {
+                  "nome": "São Paulo",
                   "sigla": "SAO",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
                 }
@@ -6349,10 +7074,12 @@
               "resultado": "2x1",
               "times": [
                 {
+                  "nome": "Flamengo",
                   "sigla": "FLA",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
                 },
                 {
+                  "nome": "Cuiabá",
                   "sigla": "CUI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/12/26/Cuiaba_EC.svg"
                 }
@@ -6366,10 +7093,12 @@
               "resultado": "1x0",
               "times": [
                 {
+                  "nome": "Palmeiras",
                   "sigla": "PAL",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
                 },
                 {
+                  "nome": "Fluminense",
                   "sigla": "FLU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
                 }
@@ -6383,10 +7112,12 @@
               "resultado": "0x0",
               "times": [
                 {
+                  "nome": "Botafogo",
                   "sigla": "BOT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
                 },
                 {
+                  "nome": "Cruzeiro",
                   "sigla": "CRU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
                 }
@@ -6400,10 +7131,12 @@
               "resultado": "1x0",
               "times": [
                 {
+                  "nome": "Bragantino",
                   "sigla": "RBB",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
                 },
                 {
+                  "nome": "Coritiba",
                   "sigla": "CFC",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
                 }
@@ -6417,10 +7150,12 @@
               "resultado": "1x0",
               "times": [
                 {
+                  "nome": "Grêmio",
                   "sigla": "GRE",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
                 },
                 {
+                  "nome": "Vasco",
                   "sigla": "VAS",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
                 }
@@ -6434,10 +7169,12 @@
               "resultado": "3x0",
               "times": [
                 {
+                  "nome": "Athletico-PR",
                   "sigla": "CAP",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/09/Athletico-PR.svg"
                 },
                 {
+                  "nome": "Santos",
                   "sigla": "SAN",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
                 }
@@ -6451,10 +7188,12 @@
               "resultado": "1x0",
               "times": [
                 {
+                  "nome": "Fortaleza",
                   "sigla": "FOR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/19/Fortaleza_2021_1.svg"
                 },
                 {
+                  "nome": "Goiás",
                   "sigla": "GOI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/03/01/GOIAS-2021.svg"
                 }
@@ -6468,10 +7207,12 @@
               "resultado": "3x2",
               "times": [
                 {
+                  "nome": "América-MG",
                   "sigla": "AME",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/28/America-MG-VERDE-fev2019-01.svg"
                 },
                 {
+                  "nome": "Bahia",
                   "sigla": "BAH",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
                 }
@@ -6490,10 +7231,12 @@
               "resultado": "1x0",
               "times": [
                 {
+                  "nome": "Goiás",
                   "sigla": "GOI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/03/01/GOIAS-2021.svg"
                 },
                 {
+                  "nome": "América-MG",
                   "sigla": "AME",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/28/America-MG-VERDE-fev2019-01.svg"
                 }
@@ -6507,10 +7250,12 @@
               "resultado": "2x3",
               "times": [
                 {
+                  "nome": "Fluminense",
                   "sigla": "FLU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
                 },
                 {
+                  "nome": "Grêmio",
                   "sigla": "GRE",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
                 }
@@ -6524,10 +7269,12 @@
               "resultado": "2x1",
               "times": [
                 {
+                  "nome": "Vasco",
                   "sigla": "VAS",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
                 },
                 {
+                  "nome": "Bragantino",
                   "sigla": "RBB",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
                 }
@@ -6541,10 +7288,12 @@
               "resultado": "1x0",
               "times": [
                 {
+                  "nome": "São Paulo",
                   "sigla": "SAO",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
                 },
                 {
+                  "nome": "Flamengo",
                   "sigla": "FLA",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
                 }
@@ -6558,10 +7307,12 @@
               "resultado": "1x2",
               "times": [
                 {
+                  "nome": "Santos",
                   "sigla": "SAN",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
                 },
                 {
+                  "nome": "Fortaleza",
                   "sigla": "FOR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/09/19/Fortaleza_2021_1.svg"
                 }
@@ -6575,10 +7326,12 @@
               "resultado": "1x1",
               "times": [
                 {
+                  "nome": "Cruzeiro",
                   "sigla": "CRU",
                   "brasao": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
                 },
                 {
+                  "nome": "Palmeiras",
                   "sigla": "PAL",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
                 }
@@ -6592,10 +7345,12 @@
               "resultado": "3x1",
               "times": [
                 {
+                  "nome": "Internacional",
                   "sigla": "INT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
                 },
                 {
+                  "nome": "Botafogo",
                   "sigla": "BOT",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
                 }
@@ -6609,10 +7364,12 @@
               "resultado": "0x2",
               "times": [
                 {
+                  "nome": "Coritiba",
                   "sigla": "CFC",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
                 },
                 {
+                  "nome": "Corinthians",
                   "sigla": "COR",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/30/Corinthians.svg"
                 }
@@ -6626,10 +7383,12 @@
               "resultado": "4x1",
               "times": [
                 {
+                  "nome": "Bahia",
                   "sigla": "BAH",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
                 },
                 {
+                  "nome": "Atlético-MG",
                   "sigla": "CAM",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
                 }
@@ -6643,10 +7402,12 @@
               "resultado": "3x0",
               "times": [
                 {
+                  "nome": "Cuiabá",
                   "sigla": "CUI",
                   "brasao": "https://s.sde.globo.com/media/organizations/2018/12/26/Cuiaba_EC.svg"
                 },
                 {
+                  "nome": "Athletico-PR",
                   "sigla": "CAP",
                   "brasao": "https://s.sde.globo.com/media/organizations/2019/09/09/Athletico-PR.svg"
                 }

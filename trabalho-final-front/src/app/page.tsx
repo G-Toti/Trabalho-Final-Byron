@@ -9,7 +9,12 @@ import {
   faChevronLeft,
   faChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
-import { IRodada, ITime } from "../../interface/campeonatos";
+import {
+  ICampeonato,
+  IJogo,
+  IRodada,
+  ITime,
+} from "../../interface/campeonatos";
 import { getData } from "../../modules/campeonatos_requests";
 
 useEmblaCarousel.globalOptions = { loop: true };
@@ -23,15 +28,19 @@ export default function Home() {
   const [windowSize, setWindowSize] = useState(0);
   const [selectedGame, setSelectedGame] = useState<number>(0);
 
+  const [curCampeonato, setCurCampeonato] = useState(0);
   const [curRodada, setCurRodada] = useState(38);
+  const [lastRodada, setLastRodada] = useState(0);
   const [rodadas, setRodadas] = useState<IRodada[]>();
+  const [jogosDaSemana, setJogosDaSemana] = useState<IJogo[]>();
 
   const [times, setTimes] = useState<ITime[]>();
 
   useEffect(() => {
     const getCampeonato = async () => {
       const res = await getData("campeonatos");
-      setRodadas(res.data[0].rodadas);
+      setLastRodada(res.data[curCampeonato].rodadaAtual);
+      setRodadas(res.data[curCampeonato].rodadas);
     };
 
     const getTimes = async () => {
@@ -39,27 +48,22 @@ export default function Home() {
         "times",
         "_sort=-estatisticas.pontos,-estatisticas.saldoDeGols"
       );
-      console.log(res.data);
       setTimes(res.data);
     };
     getTimes();
 
     getCampeonato();
-  }, []);
+  }, [curCampeonato]);
 
   useEffect(() => {
+    // pegar as partidas da ultima rodada
     if (!rodadas) return;
-  }, [curRodada, rodadas]);
+    setJogosDaSemana(rodadas[lastRodada - 1].jogos);
+  }, [rodadas, lastRodada]);
 
   const onSelect = useCallback((emblaAPI: EmblaCarouselType) => {
     setSelectedGame(emblaAPI.selectedScrollSnap());
   }, []);
-
-  const clickButtonDots = (index: number) => {
-    if (!emblaAPI) return;
-
-    emblaAPI.scrollTo(index);
-  };
 
   useEffect(() => {
     if (!emblaAPI) return;
@@ -97,18 +101,23 @@ export default function Home() {
     emblaAPI.reInit(newOptions);
   }, [windowSize, emblaAPI]);
 
+  const clickButtonDots = (index: number) => {
+    if (!emblaAPI) return;
+
+    emblaAPI.scrollTo(index);
+  };
+
   return (
     <>
       <section
         id="rodadas"
-        className="flex flex-col lg:justify-evenly bg-gray-darkest text-gray-light lg:h-[576px] gap-20 lg:gap-0 py-10 lg:py-0 "
+        className="flex flex-col lg:justify-evenly bg-gray-darkest text-gray-light lg:h-[576px] gap-10 lg:gap-0 py-10 lg:py-0 "
       >
         <div className="embla" ref={emblaRef}>
           <div className="embla__container">
-            <WeekGame />
-            <WeekGame />
-            <WeekGame />
-            <WeekGame />
+            {jogosDaSemana?.map((item, key) => (
+              <WeekGame jogo={item} key={key} />
+            ))}
           </div>
         </div>
         <div className="flex justify-evenly items-center h-fit">
@@ -120,47 +129,20 @@ export default function Home() {
           >
             {<FontAwesomeIcon icon={faChevronLeft} />}
           </button>
-          <div className="flex gap-7">
-            <button
-              className={`w-3 h-3 lg:w-6 lg:h-6 border rounded-full ${
-                selectedGame === 0
-                  ? "bg-gray-lightest"
-                  : "bg-gray-light opacity-50"
-              }`}
-              onClick={() => {
-                clickButtonDots(0);
-              }}
-            ></button>
-            <button
-              className={`w-3 h-3 lg:w-6 lg:h-6 border rounded-full ${
-                selectedGame === 1
-                  ? "bg-gray-lightest"
-                  : "bg-gray-light opacity-50"
-              }`}
-              onClick={() => {
-                clickButtonDots(1);
-              }}
-            ></button>
-            <button
-              className={`w-3 h-3 lg:w-6 lg:h-6 border rounded-full ${
-                selectedGame === 2
-                  ? "bg-gray-lightest"
-                  : "bg-gray-light opacity-50"
-              }`}
-              onClick={() => {
-                clickButtonDots(2);
-              }}
-            ></button>
-            <button
-              className={`w-3 h-3 lg:w-6 lg:h-6 border rounded-full ${
-                selectedGame === 3
-                  ? "bg-gray-lightest"
-                  : "bg-gray-light opacity-50"
-              }`}
-              onClick={() => {
-                clickButtonDots(3);
-              }}
-            ></button>
+          <div className="flex gap-2 lg:gap-7">
+            {jogosDaSemana?.map((_, key) => (
+              <button
+                key={key}
+                className={`w-3 h-3 lg:w-6 lg:h-6 border rounded-full ${
+                  selectedGame === key
+                    ? "bg-gray-lightest"
+                    : "bg-gray-light opacity-50"
+                }`}
+                onClick={() => {
+                  clickButtonDots(key);
+                }}
+              ></button>
+            ))}
           </div>
           <button
             className="hidden lg:block"
