@@ -9,15 +9,12 @@ import {
   faChevronLeft,
   faChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
-import {
-  ICampeonato,
-  IJogo,
-  IRodada,
-  ITime,
-} from "../../interface/campeonatos";
+import { IJogo, IRodada, ITime } from "../../interface/campeonatos";
 import { getData } from "../../modules/campeonatos_requests";
 
 useEmblaCarousel.globalOptions = { loop: true };
+
+const baseWidth = 1024;
 
 export default function Home() {
   // ================CARROSSEL================
@@ -35,7 +32,6 @@ export default function Home() {
 
   const [curCampeonato, setCurCampeonato] = useState(0);
   const [curRodada, setCurRodada] = useState(0);
-  const [lastRodada, setLastRodada] = useState(0);
   const [rodada, setRodada] = useState<IRodada>();
 
   // ================TABELA================
@@ -50,7 +46,6 @@ export default function Home() {
     const getCampeonato = async () => {
       const res = await getData("campeonatos");
       const rodadaAtual = res.data[curCampeonato].rodadaAtual;
-      setLastRodada(rodadaAtual);
       setCurRodada(rodadaAtual);
       setJogosDaSemana(res.data[curCampeonato].rodadas[rodadaAtual - 1].jogos);
     };
@@ -106,10 +101,10 @@ export default function Home() {
 
     let newOptions = {};
 
-    if (!canDrag && windowSize < 1024) {
+    if (!canDrag && windowSize < baseWidth) {
       newOptions = { watchDrag: true };
       setDrag(true);
-    } else if (canDrag && windowSize >= 1024) {
+    } else if (canDrag && windowSize >= baseWidth) {
       newOptions = { watchDrag: false };
       setDrag(false);
     }
@@ -231,7 +226,7 @@ export default function Home() {
                   </tr>
                   {times?.map((item, key) => (
                     <tr key={key} className="border-b border-black">
-                      <td className="flex items-center gap-3  font-bold text-lg">
+                      <td className="flex items-center gap-3 font-bold text-lg">
                         <span>{key + 1}</span>
                         <p className="hidden sm:block">{item.nome}</p>
                         <picture className="block md:hidden w-1/5">

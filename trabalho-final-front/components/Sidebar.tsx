@@ -3,35 +3,42 @@ import React, { useState } from "react";
 
 interface IProps {
   isCollapsed: boolean;
+  isTransitioning: boolean;
   toggleCollapse: () => void;
 }
 
-const Sidebar = ({ isCollapsed, toggleCollapse }: IProps) => {
+const Sidebar = ({ isCollapsed, isTransitioning, toggleCollapse }: IProps) => {
   return (
     <>
-      <div className="flex flex-col justify-start items-start z-20">
-        <div className="bg-gray-base text-gray-darkest">
-          {isCollapsed && (
-            <nav className="h-screen">
-              <ul className="flex flex-col p-10 gap-3 text-xl">
-                <li>
-                  <a href="#rodadas" onClick={toggleCollapse}>
-                    Rodadas
-                  </a>
-                </li>
-                <li>
-                  <a href="#tabela" onClick={toggleCollapse}>
-                    Tabela
-                  </a>
-                </li>
-                <li>
-                  <a href="#noticias" onClick={toggleCollapse}>
-                    Notícias
-                  </a>
-                </li>
-              </ul>
-            </nav>
-          )}
+      <div className={"flex flex-col justify-start items-start z-20"}>
+        <div
+          className={`${
+            !isCollapsed ? "-translate-x-full" : "translate-x-0"
+          } bg-gray-base text-gray-darkest transition-all ease-in-out duration-200`}
+        >
+          <nav
+            className={`h-screen ${
+              !isCollapsed && !isTransitioning && "hidden"
+            }`}
+          >
+            <ul className="flex flex-col p-10 gap-3 text-xl">
+              <li>
+                <a href="#rodadas" onClick={toggleCollapse}>
+                  Rodadas
+                </a>
+              </li>
+              <li>
+                <a href="#tabela" onClick={toggleCollapse}>
+                  Tabela
+                </a>
+              </li>
+              <li>
+                <a href="#noticias" onClick={toggleCollapse}>
+                  Notícias
+                </a>
+              </li>
+            </ul>
+          </nav>
         </div>
       </div>
     </>

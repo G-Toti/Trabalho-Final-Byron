@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useEffect } from "react";
 import { useScrollContext } from "./ScrollContext";
 import Sidebar from "./Sidebar";
 import { useState } from "react";
@@ -11,26 +11,37 @@ const Header = () => {
 
   const highlight = "font-bold text-white"; // define como vai funcionar o highlight
 
-  /*<div className="fixed right-0 left-0 flex items-center">
-      <div className="p-4"></div>*/
-
   const [isCollapsed, setIsCollapsed] = useState(false);
+  const [isTransitioning, setIsTransitioning] = useState(false);
 
   const toggleCollapse = () => {
+    setIsTransitioning(true);
     setIsCollapsed((prev) => !prev);
   };
+
+  useEffect(() => {
+    const transitionTimeout = setTimeout(() => {
+      setIsTransitioning(false);
+    }, 200);
+    return () => clearTimeout(transitionTimeout);
+  }, [isCollapsed]);
+
   return (
-    <header className="bg-gray-dark lg:fixed right-0 left-0 lg:flex lg:items-center text-gray-base font-inter shadow-gray-800 shadow-md w-screen h-fit z-10">
+    <header className="bg-gray-dark fixed right-0 left-0 lg:flex lg:items-center text-gray-base font-inter shadow-gray-800 shadow-md w-screen h-fit z-10">
       <div className="flex lg:items-center lg:justify-around h-28 xl:gap-40 lg:my-0 lg:mx-auto">
         <div
           className={`flex lg:hidden flex-col items-center ${
-            !isCollapsed && "justify-center"
-          } ${isCollapsed && "bg-gray-darkest"}`}
+            isCollapsed && "bg-gray-darkest"
+          }`}
         >
           <button onClick={toggleCollapse} className="text-lg px-4 py-10">
             {!isCollapsed ? "Menu" : "Fechar"}
           </button>
-          <Sidebar isCollapsed={isCollapsed} toggleCollapse={toggleCollapse} />
+          <Sidebar
+            isCollapsed={isCollapsed}
+            isTransitioning={isTransitioning}
+            toggleCollapse={toggleCollapse}
+          />
         </div>
         <div className="flex items-center justify-center lg:justify-start gap-3 w-fit my-4 p-4 md:p-0 mx-auto">
           <picture className="hidden md:flex justify-center w-1/6">

@@ -19,13 +19,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <body className={`${inter.className}`}>
         <ScrollContext>
           <Header />
         </ScrollContext>
 
-        <main className="font-inter lg:pt-28">{children}</main>
+        <main className="font-inter pt-28">{children}</main>
 
         <Footer />
       </body>
