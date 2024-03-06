@@ -20,6 +20,8 @@ import { getData } from "../../modules/campeonatos_requests";
 useEmblaCarousel.globalOptions = { loop: true };
 
 export default function Home() {
+  // ================CARROSSEL================
+
   const [emblaRef, emblaAPI] = useEmblaCarousel(
     { loop: true, watchDrag: true },
     [Autoplay()]
@@ -27,20 +29,30 @@ export default function Home() {
   const [canDrag, setDrag] = useState(true);
   const [windowSize, setWindowSize] = useState(0);
   const [selectedGame, setSelectedGame] = useState<number>(0);
-
-  const [curCampeonato, setCurCampeonato] = useState(0);
-  const [curRodada, setCurRodada] = useState(38);
-  const [lastRodada, setLastRodada] = useState(0);
-  const [rodadas, setRodadas] = useState<IRodada[]>();
   const [jogosDaSemana, setJogosDaSemana] = useState<IJogo[]>();
 
+  // ================RODADAS================
+
+  const [curCampeonato, setCurCampeonato] = useState(0);
+  const [curRodada, setCurRodada] = useState(0);
+  const [lastRodada, setLastRodada] = useState(0);
+  const [rodada, setRodada] = useState<IRodada>();
+
+  // ================TABELA================
+
   const [times, setTimes] = useState<ITime[]>();
+
+  // ================GERAL================
+
+  // INICIALIZAR PAGINA
 
   useEffect(() => {
     const getCampeonato = async () => {
       const res = await getData("campeonatos");
-      setLastRodada(res.data[curCampeonato].rodadaAtual);
-      setRodadas(res.data[curCampeonato].rodadas);
+      const rodadaAtual = res.data[curCampeonato].rodadaAtual;
+      setLastRodada(rodadaAtual);
+      setCurRodada(rodadaAtual);
+      setJogosDaSemana(res.data[curCampeonato].rodadas[rodadaAtual - 1].jogos);
     };
 
     const getTimes = async () => {
@@ -55,23 +67,7 @@ export default function Home() {
     getCampeonato();
   }, [curCampeonato]);
 
-  useEffect(() => {
-    // pegar as partidas da ultima rodada
-    if (!rodadas) return;
-    setJogosDaSemana(rodadas[lastRodada - 1].jogos);
-  }, [rodadas, lastRodada]);
-
-  const onSelect = useCallback((emblaAPI: EmblaCarouselType) => {
-    setSelectedGame(emblaAPI.selectedScrollSnap());
-  }, []);
-
-  useEffect(() => {
-    if (!emblaAPI) return;
-
-    emblaAPI.on("init", onSelect);
-    emblaAPI.on("select", onSelect);
-    emblaAPI.on("reInit", onSelect);
-  }, [emblaAPI, onSelect]);
+  // VERIFICAR TAMANHO DA TELA
 
   useEffect(() => {
     const handleSize = () => {
@@ -84,6 +80,26 @@ export default function Home() {
       window.removeEventListener("resize", handleSize);
     };
   }, []);
+
+  // ================CARROSSEL================
+
+  // ATUALIZAR JOGO ATUAL DO CARROSSEL
+
+  const onSelect = useCallback((emblaAPI: EmblaCarouselType) => {
+    setSelectedGame(emblaAPI.selectedScrollSnap());
+  }, []);
+
+  // INICIALIZAR O CARROSSEL
+
+  useEffect(() => {
+    if (!emblaAPI) return;
+
+    emblaAPI.on("init", onSelect);
+    emblaAPI.on("select", onSelect);
+    emblaAPI.on("reInit", onSelect);
+  }, [emblaAPI, onSelect]);
+
+  // RESPONSIVIDADE DO CARROSSEL
 
   useEffect(() => {
     if (!emblaAPI) return;
@@ -101,11 +117,29 @@ export default function Home() {
     emblaAPI.reInit(newOptions);
   }, [windowSize, emblaAPI]);
 
+  // CLICAR NOS BOTÕES DO CARROSSEL
+
   const clickButtonDots = (index: number) => {
     if (!emblaAPI) return;
 
     emblaAPI.scrollTo(index);
   };
+
+  // ================RODADADAS================
+
+  // ATUALIZAR/INICIALIZAR A RODADA QUE ESTÁ SENDO VISUALIZADA ATUALMENTE
+
+  useEffect(() => {
+    if (!curRodada) return;
+
+    const getRodada = async () => {
+      const res = await getData("campeonatos");
+      setRodada(res.data[curCampeonato].rodadas[curRodada - 1]);
+    };
+    getRodada();
+  }, [curRodada]);
+
+  // ================VISUAL================
 
   return (
     <>
@@ -282,8 +316,8 @@ export default function Home() {
                 </button>
               </div>
 
-              {rodadas
-                ? rodadas[curRodada - 1].jogos.map((item, key) => (
+              {rodada
+                ? rodada.jogos.map((item, key) => (
                     <div
                       key={key}
                       className="flex flex-col gap-4 border-t border-black py-1"
