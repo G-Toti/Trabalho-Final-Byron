@@ -27,7 +27,7 @@ const Header = () => {
   }, [isCollapsed]);
 
   return (
-    <header className="bg-gray-dark lg:fixed right-0 left-0 lg:flex lg:items-center text-gray-base font-inter shadow-gray-800 shadow-md w-screen h-fit z-10">
+    <header className="bg-gray-dark fixed right-0 left-0 lg:flex lg:items-center text-gray-base font-inter shadow-gray-800 shadow-md w-screen h-fit z-10">
       <div className="flex lg:items-center lg:justify-around h-28 xl:gap-40 lg:my-0 lg:mx-auto">
         <div
           className={`flex lg:hidden flex-col items-center ${

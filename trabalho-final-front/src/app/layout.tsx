@@ -25,7 +25,7 @@ export default function RootLayout({
           <Header />
         </ScrollContext>
 
-        <main className="font-inter lg:pt-28">{children}</main>
+        <main className="font-inter pt-28">{children}</main>
 
         <Footer />
       </body>
