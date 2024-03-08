@@ -19,10 +19,14 @@ const baseWidth = 1024;
 export default function Home() {
   // ================CARROSSEL================
 
-  const [emblaRef, emblaAPI] = useEmblaCarousel(
+  const [emblaRefSemana, emblaAPISemana] = useEmblaCarousel(
     { loop: true, watchDrag: true },
     [Autoplay()]
   );
+  const [emblaRefNoticia, emblaAPINoticia] = useEmblaCarousel({
+    loop: true,
+    watchDrag: true,
+  });
   const [canDrag, setDrag] = useState(true);
   const [windowSize, setWindowSize] = useState(0);
   const [selectedGame, setSelectedGame] = useState<number>(0);
@@ -87,17 +91,17 @@ export default function Home() {
   // INICIALIZAR O CARROSSEL
 
   useEffect(() => {
-    if (!emblaAPI) return;
+    if (!emblaAPISemana) return;
 
-    emblaAPI.on("init", onSelect);
-    emblaAPI.on("select", onSelect);
-    emblaAPI.on("reInit", onSelect);
-  }, [emblaAPI, onSelect]);
+    emblaAPISemana.on("init", onSelect);
+    emblaAPISemana.on("select", onSelect);
+    emblaAPISemana.on("reInit", onSelect);
+  }, [emblaAPISemana, onSelect]);
 
   // RESPONSIVIDADE DO CARROSSEL
 
   useEffect(() => {
-    if (!emblaAPI) return;
+    if (!emblaAPISemana) return;
 
     let newOptions = {};
 
@@ -109,15 +113,31 @@ export default function Home() {
       setDrag(false);
     }
 
-    emblaAPI.reInit(newOptions);
-  }, [windowSize, emblaAPI]);
+    emblaAPISemana.reInit(newOptions);
+  }, [windowSize, emblaAPISemana]);
+
+  useEffect(() => {
+    if (!emblaAPINoticia) return;
+
+    let newOptions = {};
+
+    if (!canDrag && windowSize < baseWidth) {
+      newOptions = { watchDrag: true };
+      setDrag(true);
+    } else if (canDrag && windowSize >= baseWidth) {
+      newOptions = { watchDrag: false };
+      setDrag(false);
+    }
+
+    emblaAPINoticia.reInit(newOptions);
+  }, [windowSize, emblaAPINoticia]);
 
   // CLICAR NOS BOTÕES DO CARROSSEL
 
   const clickButtonDots = (index: number) => {
-    if (!emblaAPI) return;
+    if (!emblaAPISemana) return;
 
-    emblaAPI.scrollTo(index);
+    emblaAPISemana.scrollTo(index);
   };
 
   // ================RODADADAS================
@@ -140,9 +160,9 @@ export default function Home() {
     <>
       <section
         id="rodadas"
-        className="flex flex-col lg:justify-evenly bg-gray-darkest text-gray-light lg:h-[576px] gap-10 lg:gap-0 py-10 lg:py-0 "
+        className="flex flex-col lg:justify-evenly bg-gray-darkest text-gray-light w-screen lg:h-[576px] gap-10 lg:gap-0 py-10 lg:py-0 "
       >
-        <div className="embla" ref={emblaRef}>
+        <div className="embla" ref={emblaRefSemana}>
           <div className="embla__container">
             {jogosDaSemana?.map((item, key) => (
               <WeekGame jogo={item} key={key} />
@@ -153,7 +173,7 @@ export default function Home() {
           <button
             className="hidden lg:block"
             onClick={() => {
-              emblaAPI?.scrollPrev();
+              emblaAPISemana?.scrollPrev();
             }}
           >
             {<FontAwesomeIcon icon={faChevronLeft} />}
@@ -176,14 +196,14 @@ export default function Home() {
           <button
             className="hidden lg:block"
             onClick={() => {
-              emblaAPI?.scrollNext();
+              emblaAPISemana?.scrollNext();
             }}
           >
             <FontAwesomeIcon icon={faChevronRight} />
           </button>
         </div>
       </section>
-      <section id="tabela" className="bg-gray-lightest py-8">
+      <section id="tabela" className="bg-gray-lightest w-screen py-8">
         <div className="flex flex-col gap-5 px-5 lg:px-16">
           <div className="flex flex-col lg:flex-row gap-10">
             <div className="space-y-5 lg:w-2/3">
@@ -352,6 +372,75 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {
+        <section
+          id="noticias"
+          className="bg-gray-darkest flex justify-start w-screen"
+        >
+          <div className="m-5">
+            <div className="relative text-white text-center">
+              <h1 className="absolute text-4xl md:text-5xl lg:text-8xl font-extrabold opacity-40">
+                NOTÍCIAS
+              </h1>
+              <h2 className="absolute md:text-xl lg:text-3xl top-0 left-0 px-1 py-2 lg:px-4 lg:py-7">
+                Notícias
+              </h2>
+              <div className="flex gap-8 justify-center items-center">
+                <button className="text-yellow-base text-5xl hidden lg:block">
+                  <FontAwesomeIcon icon={faChevronLeft} />
+                </button>
+
+                <div className="embla pt-9 lg:pt-20" ref={emblaRefNoticia}>
+                  <div className="embla__container">
+                    <div className="flex justify-center md:hidden">
+                      <div className="border-2 border-white">
+                        <picture className="relative w-full">
+                          <div className="bg-gradient-to-b from-gray-darkest to-transparent -left-full right-0 bottom-0 top-0 absolute flex justify-between p-2">
+                            <h4 className="text-yellow-base">Brasileirão</h4>
+                            <p>00 de xxx.</p>
+                          </div>
+                          <img
+                            src="/images/place_holder_photo.png"
+                            alt=""
+                            className="object-cover"
+                          />
+                          <div className="bg-yellow-dark absolute -left-full right-0 bottom-0 px-5 py-3">
+                            <h3 className="font-bold uppercase">Titulo</h3>
+                            <a href="" className="underline">
+                              Veja mais
+                            </a>
+                          </div>
+                        </picture>
+                      </div>
+                    </div>
+
+                    <div className="hidden md:grid grid-cols-3 grid-rows-2 gap-10 lg:gap-x-32 lg:gap-y-7">
+                      <div className="border border-white">
+                        <picture className="relative">
+                          <div className="bg-gradient-to-b from-gray-darkest to-transparent -left-full right-0 bottom-0 top-0 absolute flex justify-between p-2">
+                            <h4 className="text-yellow-base">Brasileirão</h4>
+                            <p>00 de xxx.</p>
+                          </div>
+                          <img src="/images/place_holder_photo.png" alt="" />
+                          <div className="bg-yellow-dark absolute -left-full right-0 bottom-0 px-5 py-3">
+                            <h3 className="font-bold uppercase">Titulo</h3>
+                            <a href="" className="underline">
+                              Veja mais
+                            </a>
+                          </div>
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button className="text-yellow-base text-5xl hidden lg:block">
+                  <FontAwesomeIcon icon={faChevronRight} />
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+      }
     </>
   );
 }
