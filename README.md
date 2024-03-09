@@ -33,10 +33,12 @@ Esse projeto busca apresentar a classificação do campeonato brasileiro, bem co
 <section id="aplicacao">
   <h2>📱 Aplicação</h2>
   
+
+</section>
+
   ![Imagem de demontração do projeto 1](./Readme_utils/readme_demo.png)
   ![Imagem de demontração do projeto 2](./Readme_utils/readme_demo_2.png)
   ![Imagem de demontração do projeto 3](./Readme_utils/readme_demo_3.png)
-</section>
 
 <section id="instalacao">
  <h2>⬇ Instalação</h2>
