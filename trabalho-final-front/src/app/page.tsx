@@ -11,6 +11,8 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { IJogo, IRodada, ITime } from "../../interface/campeonatos";
 import { getData } from "../../modules/campeonatos_requests";
+import { INews } from "../../utils/types/noticia";
+import { getStrapiData } from "../../modules/noticias_request";
 
 useEmblaCarousel.globalOptions = { loop: true };
 
@@ -19,10 +21,14 @@ const baseWidth = 1024;
 export default function Home() {
   // ================CARROSSEL================
 
-  const [emblaRef, emblaAPI] = useEmblaCarousel(
+  const [emblaRefSemana, emblaAPISemana] = useEmblaCarousel(
     { loop: true, watchDrag: true },
     [Autoplay()]
   );
+  const [emblaRefNoticia, emblaAPINoticia] = useEmblaCarousel({
+    loop: true,
+    watchDrag: true,
+  });
   const [canDrag, setDrag] = useState(true);
   const [windowSize, setWindowSize] = useState(0);
   const [selectedGame, setSelectedGame] = useState<number>(0);
@@ -37,6 +43,10 @@ export default function Home() {
   // ================TABELA================
 
   const [times, setTimes] = useState<ITime[]>();
+
+  // ================NOTICIAS================
+
+  const [noticias, setNoticias] = useState<INews>();
 
   // ================GERAL================
 
@@ -57,10 +67,16 @@ export default function Home() {
       );
       setTimes(res.data);
     };
-    getTimes();
 
+    const getNews = async () => {
+      const res = await getStrapiData("noticias", "*");
+      setNoticias(res.data);
+    };
+
+    getNews();
+    getTimes();
     getCampeonato();
-  }, [curCampeonato]);
+  }, []);
 
   // VERIFICAR TAMANHO DA TELA
 
@@ -87,17 +103,17 @@ export default function Home() {
   // INICIALIZAR O CARROSSEL
 
   useEffect(() => {
-    if (!emblaAPI) return;
+    if (!emblaAPISemana) return;
 
-    emblaAPI.on("init", onSelect);
-    emblaAPI.on("select", onSelect);
-    emblaAPI.on("reInit", onSelect);
-  }, [emblaAPI, onSelect]);
+    emblaAPISemana.on("init", onSelect);
+    emblaAPISemana.on("select", onSelect);
+    emblaAPISemana.on("reInit", onSelect);
+  }, [emblaAPISemana, onSelect]);
 
   // RESPONSIVIDADE DO CARROSSEL
 
   useEffect(() => {
-    if (!emblaAPI) return;
+    if (!emblaAPISemana) return;
 
     let newOptions = {};
 
@@ -109,15 +125,31 @@ export default function Home() {
       setDrag(false);
     }
 
-    emblaAPI.reInit(newOptions);
-  }, [windowSize, emblaAPI]);
+    emblaAPISemana.reInit(newOptions);
+  }, [windowSize, emblaAPISemana]);
+
+  useEffect(() => {
+    if (!emblaAPINoticia) return;
+
+    let newOptions = {};
+
+    if (!canDrag && windowSize < baseWidth) {
+      newOptions = { watchDrag: true };
+      setDrag(true);
+    } else if (canDrag && windowSize >= baseWidth) {
+      newOptions = { watchDrag: false };
+      setDrag(false);
+    }
+
+    emblaAPINoticia.reInit(newOptions);
+  }, [windowSize, emblaAPINoticia]);
 
   // CLICAR NOS BOTÕES DO CARROSSEL
 
   const clickButtonDots = (index: number) => {
-    if (!emblaAPI) return;
+    if (!emblaAPISemana) return;
 
-    emblaAPI.scrollTo(index);
+    emblaAPISemana.scrollTo(index);
   };
 
   // ================RODADADAS================
@@ -140,9 +172,9 @@ export default function Home() {
     <>
       <section
         id="rodadas"
-        className="flex flex-col lg:justify-evenly bg-gray-darkest text-gray-light lg:h-[576px] gap-10 lg:gap-0 py-10 lg:py-0 "
+        className="flex flex-col lg:justify-evenly bg-gray-darkest text-gray-light w-screen lg:h-[576px] gap-10 lg:gap-0 py-10 lg:py-0 "
       >
-        <div className="embla" ref={emblaRef}>
+        <div className="embla" ref={emblaRefSemana}>
           <div className="embla__container">
             {jogosDaSemana?.map((item, key) => (
               <WeekGame jogo={item} key={key} />
@@ -153,7 +185,7 @@ export default function Home() {
           <button
             className="hidden lg:block"
             onClick={() => {
-              emblaAPI?.scrollPrev();
+              emblaAPISemana?.scrollPrev();
             }}
           >
             {<FontAwesomeIcon icon={faChevronLeft} />}
@@ -176,14 +208,14 @@ export default function Home() {
           <button
             className="hidden lg:block"
             onClick={() => {
-              emblaAPI?.scrollNext();
+              emblaAPISemana?.scrollNext();
             }}
           >
             <FontAwesomeIcon icon={faChevronRight} />
           </button>
         </div>
       </section>
-      <section id="tabela" className="bg-gray-lightest py-8">
+      <section id="tabela" className="bg-gray-lightest w-screen py-8">
         <div className="flex flex-col gap-5 px-5 lg:px-16">
           <div className="flex flex-col lg:flex-row gap-10">
             <div className="space-y-5 lg:w-2/3">
@@ -348,6 +380,101 @@ export default function Home() {
                     </div>
                   ))
                 : "Carregando..."}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="noticias"
+        className="bg-gray-darkest flex justify-start w-screen"
+      >
+        <div className="m-5 w-full">
+          <div className="relative text-white text-center">
+            <h1 className="absolute text-4xl md:text-5xl lg:text-8xl font-extrabold opacity-40">
+              NOTÍCIAS
+            </h1>
+            <h2 className="absolute md:text-xl lg:text-3xl top-0 left-0 px-1 py-2 lg:px-4 lg:py-7">
+              Notícias
+            </h2>
+            <div className="flex gap-8 justify-center items-center">
+              <div
+                className="embla pt-9 lg:pt-20 md:hidden"
+                ref={emblaRefNoticia}
+              >
+                <div className="embla__container">
+                  {noticias?.data.map((item, key) => (
+                    <div key={key} className="embla__slide flex justify-center">
+                      <div className="border-2 border-white">
+                        <a href={`/noticias/${item.id}`}>
+                          <picture className="relative w-full">
+                            <div className="bg-gradient-to-b from-gray-darkest to-transparent -left-full right-0 bottom-0 top-0 absolute flex justify-between p-2">
+                              <h4 className="text-yellow-base">Brasileirão</h4>
+                              <p>
+                                {new Intl.DateTimeFormat("pt-BR", {
+                                  day: "numeric",
+                                  month: "short",
+                                }).format(
+                                  new Date(item.attributes.publishedAt)
+                                )}
+                              </p>
+                            </div>
+                            <img
+                              src={
+                                "http://127.0.0.1:1337" +
+                                item.attributes.Thumbnail.data.attributes.url
+                              }
+                              alt=""
+                              className="object-cover w-60 h-60"
+                            />
+                            <div className="bg-yellow-dark absolute -left-full right-0 bottom-0 px-5 py-3">
+                              <h3 className="font-bold uppercase">
+                                {item.attributes.Titulo}
+                              </h3>
+                            </div>
+                          </picture>
+                        </a>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              <div className="hidden md:grid grid-cols-3 pt-20 gap-x-36 gap-y-7">
+                {noticias?.data.map((noticia) => (
+                  <div
+                    key={noticia.id}
+                    className="border border-white w-fit transform transition ease-in-out hover:scale-105"
+                  >
+                    <a href={`/noticias/${noticia.id}`}>
+                      <picture className="relative">
+                        <div className="bg-gradient-to-b from-gray-darkest to-transparent -left-full right-0 bottom-0 top-0 absolute flex justify-between p-2">
+                          <h4 className="text-yellow-base">Brasileirão</h4>
+                          <p>
+                            {new Intl.DateTimeFormat("pt-BR", {
+                              day: "numeric",
+                              month: "short",
+                            }).format(new Date(noticia.attributes.publishedAt))}
+                          </p>
+                        </div>
+                        <img
+                          src={
+                            "http://127.0.0.1:1337" +
+                            noticia.attributes.Thumbnail.data.attributes.url
+                          }
+                          alt=""
+                          className="lg:w-64 lg:h-64 object-cover"
+                        />
+                        <div className="bg-yellow-dark absolute -left-full right-0 bottom-0 px-5 py-3">
+                          <h3 className="font-bold uppercase">
+                            {noticia.attributes.Titulo}
+                          </h3>
+                        </div>
+                      </picture>
+                    </a>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </div>

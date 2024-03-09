@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 interface IProps {
   isCollapsed: boolean;
@@ -8,6 +8,12 @@ interface IProps {
 }
 
 const Sidebar = ({ isCollapsed, isTransitioning, toggleCollapse }: IProps) => {
+  const [windowComponent, setWindowComponent] = useState<Window>();
+
+  useEffect(() => {
+    setWindowComponent(window);
+  }, []);
+
   return (
     <>
       <div className={"flex flex-col justify-start items-start z-20"}>
@@ -22,21 +28,29 @@ const Sidebar = ({ isCollapsed, isTransitioning, toggleCollapse }: IProps) => {
             }`}
           >
             <ul className="flex flex-col p-10 gap-3 text-xl">
-              <li>
-                <a href="#rodadas" onClick={toggleCollapse}>
-                  Rodadas
-                </a>
-              </li>
-              <li>
-                <a href="#tabela" onClick={toggleCollapse}>
-                  Tabela
-                </a>
-              </li>
-              <li>
-                <a href="#noticias" onClick={toggleCollapse}>
-                  Notícias
-                </a>
-              </li>
+              {windowComponent?.location.pathname === "/" ? (
+                <>
+                  <li>
+                    <a href="#rodadas" onClick={toggleCollapse}>
+                      Rodadas
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#tabela" onClick={toggleCollapse}>
+                      Tabela
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#noticias" onClick={toggleCollapse}>
+                      Notícias
+                    </a>
+                  </li>
+                </>
+              ) : (
+                <li className="text-base">
+                  <a href="/">Home</a>
+                </li>
+              )}
             </ul>
           </nav>
         </div>
