@@ -89,7 +89,7 @@ const Header = () => {
                 </li>
               </>
             ) : (
-              <li className="text-base lg:text-lg">
+              <li className="text-base lg:text-lg transition ease-in-out transform hover:scale-105 hover:text-yellow-base">
                 <a href="/">Voltar à Home</a>
               </li>
             )}
