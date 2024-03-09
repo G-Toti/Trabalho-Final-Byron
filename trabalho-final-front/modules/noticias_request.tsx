@@ -1,9 +1,11 @@
 import axios from "../api/axios";
 
-export const getData = async (endpoint: string, condition?: string) => {
+export const getStrapiData = async (endpoint: string, populate?: string) => {
   try {
     const res = await axios.get(
-      `http://127.0.0.1:3000/${endpoint}${condition ? `?${condition}` : ""}`
+      `http://127.0.0.1:1337/api/${endpoint}${
+        populate ? "?populate=" + populate : ""
+      }`
     );
     const body = res.data;
 
