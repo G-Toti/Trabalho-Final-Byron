@@ -442,7 +442,10 @@ export default function Home() {
 
               <div className="hidden md:grid grid-cols-3 pt-20 gap-x-36 gap-y-7">
                 {noticias?.data.map((noticia) => (
-                  <div key={noticia.id} className="border border-white w-fit">
+                  <div
+                    key={noticia.id}
+                    className="border border-white w-fit transform transition ease-in-out hover:scale-105"
+                  >
                     <a href={`/noticias/${noticia.id}`}>
                       <picture className="relative">
                         <div className="bg-gradient-to-b from-gray-darkest to-transparent -left-full right-0 bottom-0 top-0 absolute flex justify-between p-2">
